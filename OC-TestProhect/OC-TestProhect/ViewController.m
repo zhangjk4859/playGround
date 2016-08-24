@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <pthread.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+}
+- (IBAction)buttonClick:(UIButton *)sender
+{
+    
+    pthread_t thread;
+    pthread_create(&thread, NULL, run, NULL);
+    
+    
+}
+
+void *run(void *param)
+{
+    NSLog(@"%s",__func__);
+    return NULL;
 }
 
 

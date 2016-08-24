@@ -26,8 +26,9 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
 
-        
-        
+        int numbers[4] = {10,20,30,40};//整数类型数组，指针默认指向第一个元素
+        int *p = (int *)(&numbers + 1);
+        NSLog(@"%d",*(p - 1));
         
     
     }
