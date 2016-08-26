@@ -18,6 +18,11 @@
 		0A44AD1B1D6E95E80052FCBB /* ThreadDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44AD1A1D6E95E80052FCBB /* ThreadDemo.m */; };
 		0A44AD1E1D6E960C0052FCBB /* ThreadComunicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44AD1D1D6E960C0052FCBB /* ThreadComunicate.m */; };
 		0A5F01E51D6FE75B00E653C8 /* NSOperationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01E41D6FE75B00E653C8 /* NSOperationDemo.m */; };
+		0A5F01E91D702E5F00E653C8 /* NSOperationQueueDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01E71D702E5F00E653C8 /* NSOperationQueueDemo2.m */; };
+		0A5F01EA1D702E5F00E653C8 /* NSOperationQueueDemo2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F01E81D702E5F00E653C8 /* NSOperationQueueDemo2.xib */; };
+		0A5F01EF1D702F7800E653C8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01EE1D702F7800E653C8 /* TableViewController.m */; };
+		0A5F01F11D70301600E653C8 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F01F01D70301600E653C8 /* apps.plist */; };
+		0A5F01F71D7030CB00E653C8 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01F61D7030CB00E653C8 /* App.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +65,14 @@
 		0A44AD1D1D6E960C0052FCBB /* ThreadComunicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadComunicate.m; sourceTree = "<group>"; };
 		0A5F01E31D6FE75B00E653C8 /* NSOperationDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationDemo.h; sourceTree = "<group>"; };
 		0A5F01E41D6FE75B00E653C8 /* NSOperationDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationDemo.m; sourceTree = "<group>"; };
+		0A5F01E61D702E5F00E653C8 /* NSOperationQueueDemo2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationQueueDemo2.h; sourceTree = "<group>"; };
+		0A5F01E71D702E5F00E653C8 /* NSOperationQueueDemo2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueueDemo2.m; sourceTree = "<group>"; };
+		0A5F01E81D702E5F00E653C8 /* NSOperationQueueDemo2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSOperationQueueDemo2.xib; sourceTree = "<group>"; };
+		0A5F01ED1D702F7800E653C8 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0A5F01EE1D702F7800E653C8 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		0A5F01F01D70301600E653C8 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		0A5F01F51D7030CB00E653C8 /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		0A5F01F61D7030CB00E653C8 /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +123,7 @@
 		0A18F4881D6D69A5009F7C55 /* OC-TestProhect */ = {
 			isa = PBXGroup;
 			children = (
+				0A5F01EC1D702F4100E653C8 /* tableView示例 */,
 				0A44AD181D6E95E80052FCBB /* 线程示例 */,
 				0A18F48C1D6D69A5009F7C55 /* AppDelegate.h */,
 				0A18F48D1D6D69A5009F7C55 /* AppDelegate.m */,
@@ -128,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				0A18F48A1D6D69A5009F7C55 /* main.m */,
+				0A5F01F01D70301600E653C8 /* apps.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,8 +174,30 @@
 				0A44AD1D1D6E960C0052FCBB /* ThreadComunicate.m */,
 				0A5F01E31D6FE75B00E653C8 /* NSOperationDemo.h */,
 				0A5F01E41D6FE75B00E653C8 /* NSOperationDemo.m */,
+				0A5F01EB1D702E6600E653C8 /* 线程图片下载合成 */,
 			);
 			path = "线程示例";
+			sourceTree = "<group>";
+		};
+		0A5F01EB1D702E6600E653C8 /* 线程图片下载合成 */ = {
+			isa = PBXGroup;
+			children = (
+				0A5F01E61D702E5F00E653C8 /* NSOperationQueueDemo2.h */,
+				0A5F01E71D702E5F00E653C8 /* NSOperationQueueDemo2.m */,
+				0A5F01E81D702E5F00E653C8 /* NSOperationQueueDemo2.xib */,
+			);
+			name = "线程图片下载合成";
+			sourceTree = "<group>";
+		};
+		0A5F01EC1D702F4100E653C8 /* tableView示例 */ = {
+			isa = PBXGroup;
+			children = (
+				0A5F01ED1D702F7800E653C8 /* TableViewController.h */,
+				0A5F01EE1D702F7800E653C8 /* TableViewController.m */,
+				0A5F01F51D7030CB00E653C8 /* App.h */,
+				0A5F01F61D7030CB00E653C8 /* App.m */,
+			);
+			path = "tableView示例";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,8 +303,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A5F01EA1D702E5F00E653C8 /* NSOperationQueueDemo2.xib in Resources */,
 				0A18F4991D6D69A5009F7C55 /* LaunchScreen.storyboard in Resources */,
 				0A18F4961D6D69A5009F7C55 /* Assets.xcassets in Resources */,
+				0A5F01F11D70301600E653C8 /* apps.plist in Resources */,
 				0A18F4941D6D69A5009F7C55 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,10 +334,13 @@
 			files = (
 				0A44AD1B1D6E95E80052FCBB /* ThreadDemo.m in Sources */,
 				0A5F01E51D6FE75B00E653C8 /* NSOperationDemo.m in Sources */,
+				0A5F01E91D702E5F00E653C8 /* NSOperationQueueDemo2.m in Sources */,
+				0A5F01F71D7030CB00E653C8 /* App.m in Sources */,
 				0A44AD1E1D6E960C0052FCBB /* ThreadComunicate.m in Sources */,
 				0A18F4911D6D69A5009F7C55 /* ViewController.m in Sources */,
 				0A18F48E1D6D69A5009F7C55 /* AppDelegate.m in Sources */,
 				0A18F48B1D6D69A5009F7C55 /* main.m in Sources */,
+				0A5F01EF1D702F7800E653C8 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
