@@ -17,6 +17,7 @@
 		0A18F4AF1D6D69A5009F7C55 /* OC_TestProhectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18F4AE1D6D69A5009F7C55 /* OC_TestProhectUITests.m */; };
 		0A44AD1B1D6E95E80052FCBB /* ThreadDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44AD1A1D6E95E80052FCBB /* ThreadDemo.m */; };
 		0A44AD1E1D6E960C0052FCBB /* ThreadComunicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44AD1D1D6E960C0052FCBB /* ThreadComunicate.m */; };
+		0A5F01E51D6FE75B00E653C8 /* NSOperationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01E41D6FE75B00E653C8 /* NSOperationDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		0A44AD1A1D6E95E80052FCBB /* ThreadDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadDemo.m; sourceTree = "<group>"; };
 		0A44AD1C1D6E960C0052FCBB /* ThreadComunicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadComunicate.h; sourceTree = "<group>"; };
 		0A44AD1D1D6E960C0052FCBB /* ThreadComunicate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadComunicate.m; sourceTree = "<group>"; };
+		0A5F01E31D6FE75B00E653C8 /* NSOperationDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationDemo.h; sourceTree = "<group>"; };
+		0A5F01E41D6FE75B00E653C8 /* NSOperationDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +157,8 @@
 				0A44AD1A1D6E95E80052FCBB /* ThreadDemo.m */,
 				0A44AD1C1D6E960C0052FCBB /* ThreadComunicate.h */,
 				0A44AD1D1D6E960C0052FCBB /* ThreadComunicate.m */,
+				0A5F01E31D6FE75B00E653C8 /* NSOperationDemo.h */,
+				0A5F01E41D6FE75B00E653C8 /* NSOperationDemo.m */,
 			);
 			path = "线程示例";
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A44AD1B1D6E95E80052FCBB /* ThreadDemo.m in Sources */,
+				0A5F01E51D6FE75B00E653C8 /* NSOperationDemo.m in Sources */,
 				0A44AD1E1D6E960C0052FCBB /* ThreadComunicate.m in Sources */,
 				0A18F4911D6D69A5009F7C55 /* ViewController.m in Sources */,
 				0A18F48E1D6D69A5009F7C55 /* AppDelegate.m in Sources */,
