@@ -65,10 +65,7 @@
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 #pragma mark - Table view data source
 
@@ -86,6 +83,8 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
     cell.textLabel.text = app.name;
     cell.detailTextLabel.text = app.download;
+    //先设置一个占位图片
+    cell.imageView.image = [UIImage imageNamed:@"placeholder"];
     
     //先去缓存拿图片
     UIImage *image = self.imagesCaches[app.icon];
@@ -109,8 +108,6 @@
             
         }else{//子线程去网络下载
             
-            //先设置一个占位图片
-            cell.imageView.image = [UIImage imageNamed:@"placeholder"];
         
             //先看有没有已经在下载
          NSOperation *op = self.operations[app.icon];
@@ -168,6 +165,19 @@
     
     
     return cell;
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    
+    //取消所有下载操作
+    [self.queue cancelAllOperations];
+    //操作数组清空
+    self.operations = nil;
+    //清除图片缓存
+    self.imagesCaches = nil;
+    
+    
 }
 
 

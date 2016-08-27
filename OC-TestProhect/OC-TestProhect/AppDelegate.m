@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <SDWebImageManager.h>
 
 @interface AppDelegate ()
 
@@ -40,6 +41,15 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+-(void)applicationDidReceiveMemoryWarning:(UIApplication *)application
+{
+    //在这里可以清除内存缓存
+    [[SDWebImageManager sharedManager].imageCache clearMemory];
+    
+    //取消所有的下载任务
+    [[SDWebImageManager sharedManager] cancelAll];
 }
 
 @end
