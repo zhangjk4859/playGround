@@ -14,11 +14,20 @@
 @property(nonatomic,strong)NSArray *apps;
 /**图片字典*/
 @property(nonatomic,strong)NSMutableDictionary *imagesCaches;
-/**<#注释#>*/
+/**规定的轨道，可以多开轨道*/
 @property(nonatomic,strong)NSOperationQueue *queue;
+/**小工登记手册*/
+@property(nonatomic,strong)NSMutableDictionary *operations;
 @end
 
 @implementation TableViewController
+- (NSMutableDictionary *)operations
+{
+    if (!_operations) {
+        _operations = [NSMutableDictionary dictionary];
+    }
+    return _operations;
+}
 - (NSOperationQueue *)queue
 {
     if (!_queue) {
@@ -100,32 +109,59 @@
             
         }else{//子线程去网络下载
             
-            //开启子线程
-            [self.queue addOperationWithBlock:^{
-               
-                NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:app.icon]];
-                UIImage *image = [UIImage imageWithData:data];
-                //回到主线程刷新图片
-                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+            //先设置一个占位图片
+            cell.imageView.image = [UIImage imageNamed:@"placeholder"];
+        
+            //先看有没有已经在下载
+         NSOperation *op = self.operations[app.icon];
+            if (op == nil) {//叫一个小工开始干活，下载图片
+                op = [NSBlockOperation blockOperationWithBlock:^{
+                                        //开启子线程
                     
-                    cell.imageView.image = image;
+                        
+                        NSData *data = [NSData dataWithContentsOfURL:[NSURL URLWithString:app.icon]];
+                        UIImage *image = [UIImage imageWithData:data];
+                        
+                        //数据下载失败控制
+                        if (image == nil) {
+                            
+                            //移除小工名单，让指挥后续重新发配人干活
+                            [self.operations removeObjectForKey:app.icon];
+                            
+                            return;
+                        }
+                        
+                        //回到主线程刷新图片
+                        [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                            
+                            //只刷新下载图片的特定行，解决
+                            [tableView reloadRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationNone];
+                        }];
+                    
+                        
+                        //写到字典里
+                        self.imagesCaches[app.icon] = image;
+                        
+                        //将图片数据写入沙盒中caches文件夹中
+                        
+                        //根据文件路径存储到沙盒中
+                        [data writeToFile:file atomically:YES];
+                    
+                        //下载完成移除操作（留着也没意义）
+                    [self.operations removeObjectForKey:app.icon];
+                        
+                    
                 }];
                 
+                //添加到队列（干活的计划）
+                [self.queue addOperation:op];
                 
+                //添加到已经在干活的小工名单中
+                self.operations[app.icon] = op;
                 
-                //写到字典里
-                self.imagesCaches[app.icon] = image;
-                
-                //将图片数据写入沙盒中caches文件夹中
-                
-                //根据文件路径存储到沙盒中
-                [data writeToFile:file atomically:YES];
-                NSLog(@"%@",file);
-                
-
-            }];
-
+            }
             
+        
         }
         
     }
