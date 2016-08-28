@@ -5,10 +5,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Runloop DemoVC-->
+        <!--Add Runloop Demo-->
         <scene sceneID="8Vc-GI-3vr">
             <objects>
-                <viewController id="pVg-QO-7uF" customClass="RunloopDemoVC" sceneMemberID="viewController">
+                <viewController id="pVg-QO-7uF" customClass="AddRunloopDemo" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tG1-2s-uh6"/>
                         <viewControllerLayoutGuide type="bottom" id="4mp-BX-E6Z"/>

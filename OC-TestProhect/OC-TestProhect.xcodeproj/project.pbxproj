@@ -24,6 +24,7 @@
 		0A5F01F11D70301600E653C8 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F01F01D70301600E653C8 /* apps.plist */; };
 		0A5F01F71D7030CB00E653C8 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01F61D7030CB00E653C8 /* App.m */; };
 		0A79B4B81D719177007FC036 /* RunloopDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79B4B71D719177007FC036 /* RunloopDemoVC.m */; };
+		0AE88DF31D7288CF00FF9660 /* AddRunloopDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE88DF21D7288CF00FF9660 /* AddRunloopDemo.m */; };
 		9FCF6EE6A762DA0B421DD69F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCBC1D391CB24249CAD1987 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,8 @@
 		0A5F01F61D7030CB00E653C8 /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
 		0A79B4B61D719177007FC036 /* RunloopDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunloopDemoVC.h; sourceTree = "<group>"; };
 		0A79B4B71D719177007FC036 /* RunloopDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunloopDemoVC.m; sourceTree = "<group>"; };
+		0AE88DF11D7288CF00FF9660 /* AddRunloopDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRunloopDemo.h; sourceTree = "<group>"; };
+		0AE88DF21D7288CF00FF9660 /* AddRunloopDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRunloopDemo.m; sourceTree = "<group>"; };
 		0D0D797DBC67AD32E1419719 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ACCBC1D391CB24249CAD1987 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A1F2C6C4FAF3F5C24D1AAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -216,6 +219,8 @@
 			children = (
 				0A79B4B61D719177007FC036 /* RunloopDemoVC.h */,
 				0A79B4B71D719177007FC036 /* RunloopDemoVC.m */,
+				0AE88DF11D7288CF00FF9660 /* AddRunloopDemo.h */,
+				0AE88DF21D7288CF00FF9660 /* AddRunloopDemo.m */,
 			);
 			path = "Runloop示例";
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 				0A44AD1B1D6E95E80052FCBB /* ThreadDemo.m in Sources */,
 				0A5F01E51D6FE75B00E653C8 /* NSOperationDemo.m in Sources */,
 				0A5F01E91D702E5F00E653C8 /* NSOperationQueueDemo2.m in Sources */,
+				0AE88DF31D7288CF00FF9660 /* AddRunloopDemo.m in Sources */,
 				0A5F01F71D7030CB00E653C8 /* App.m in Sources */,
 				0A44AD1E1D6E960C0052FCBB /* ThreadComunicate.m in Sources */,
 				0A18F4911D6D69A5009F7C55 /* ViewController.m in Sources */,
