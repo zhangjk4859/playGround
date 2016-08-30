@@ -15,6 +15,7 @@
 		0A18F4991D6D69A5009F7C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A18F4971D6D69A5009F7C55 /* LaunchScreen.storyboard */; };
 		0A18F4A41D6D69A5009F7C55 /* OC_TestProhectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18F4A31D6D69A5009F7C55 /* OC_TestProhectTests.m */; };
 		0A18F4AF1D6D69A5009F7C55 /* OC_TestProhectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18F4AE1D6D69A5009F7C55 /* OC_TestProhectUITests.m */; };
+		0A3C2B491D7562A700AE8AC8 /* RunLoopObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3C2B481D7562A700AE8AC8 /* RunLoopObserver.m */; };
 		0A44AD1B1D6E95E80052FCBB /* ThreadDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44AD1A1D6E95E80052FCBB /* ThreadDemo.m */; };
 		0A44AD1E1D6E960C0052FCBB /* ThreadComunicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A44AD1D1D6E960C0052FCBB /* ThreadComunicate.m */; };
 		0A5F01E51D6FE75B00E653C8 /* NSOperationDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01E41D6FE75B00E653C8 /* NSOperationDemo.m */; };
@@ -66,6 +67,8 @@
 		0A18F4AA1D6D69A5009F7C55 /* OC-TestProhectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OC-TestProhectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A18F4AE1D6D69A5009F7C55 /* OC_TestProhectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OC_TestProhectUITests.m; sourceTree = "<group>"; };
 		0A18F4B01D6D69A5009F7C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A3C2B471D7562A700AE8AC8 /* RunLoopObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopObserver.h; sourceTree = "<group>"; };
+		0A3C2B481D7562A700AE8AC8 /* RunLoopObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopObserver.m; sourceTree = "<group>"; };
 		0A44AD191D6E95E80052FCBB /* ThreadDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadDemo.h; sourceTree = "<group>"; };
 		0A44AD1A1D6E95E80052FCBB /* ThreadDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadDemo.m; sourceTree = "<group>"; };
 		0A44AD1C1D6E960C0052FCBB /* ThreadComunicate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadComunicate.h; sourceTree = "<group>"; };
@@ -235,6 +238,8 @@
 				0A79B4B71D719177007FC036 /* RunloopDemoVC.m */,
 				0AE88DF11D7288CF00FF9660 /* AddRunloopDemo.h */,
 				0AE88DF21D7288CF00FF9660 /* AddRunloopDemo.m */,
+				0A3C2B471D7562A700AE8AC8 /* RunLoopObserver.h */,
+				0A3C2B481D7562A700AE8AC8 /* RunLoopObserver.m */,
 			);
 			path = "Runloop示例";
 			sourceTree = "<group>";
@@ -488,6 +493,7 @@
 				0A44AD1B1D6E95E80052FCBB /* ThreadDemo.m in Sources */,
 				0AB92FD41D7415640071D42C /* JSONController.m in Sources */,
 				0A5F01E51D6FE75B00E653C8 /* NSOperationDemo.m in Sources */,
+				0A3C2B491D7562A700AE8AC8 /* RunLoopObserver.m in Sources */,
 				0A5F01E91D702E5F00E653C8 /* NSOperationQueueDemo2.m in Sources */,
 				0AE88DF31D7288CF00FF9660 /* AddRunloopDemo.m in Sources */,
 				0A5F01F71D7030CB00E653C8 /* App.m in Sources */,
