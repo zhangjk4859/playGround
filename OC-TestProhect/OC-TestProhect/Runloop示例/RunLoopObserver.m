@@ -11,16 +11,30 @@
 @interface RunLoopObserver ()<NSURLConnectionDataDelegate>
 /**输出流*/
 @property(nonatomic,strong)NSOutputStream *stream;
-
+/**runloop*/
+@property(nonatomic,assign)CFRunLoopRef runloop;
 @end
 
 @implementation RunLoopObserver
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        //如果在子线程启动，会无法回调代理方法
+        //子线程开启工头，必须要自己开启，自己停掉,开启和代理不是同一个线程（打印验证）
+        NSURLConnection *conn = [NSURLConnection connectionWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_01.mp4"]] delegate:self];
+        
+        //[[NSRunLoop currentRunLoop] run];
+        self.runloop = CFRunLoopGetCurrent();
+        CFRunLoopRun();
+        
+    });
 
-    //故事主线，用资源搜索器，找视频下载到沙盒缓存
-    [NSURLConnection connectionWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_01.mp4"]] delegate:self];
+    //故事主线，用资源搜索器，找视频下载到沙盒缓存，会自动在子线程进行，但是必须在主线程启动，因为主线程会监控数据回调
+//    NSURLConnection *conn = [NSURLConnection connectionWithRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://120.25.226.186:32812/resources/videos/minion_01.mp4"]] delegate:self];
+    //决定代理方法在子线程执行
+    //[conn setDelegateQueue:[[NSOperationQueue alloc] init]];
 
 }
 
@@ -55,6 +69,7 @@
 {
     [self.stream close];
     NSLog(@"-----DidFinish");
+    CFRunLoopStop(self.runloop);
 }
 
 -(void)addObserver
