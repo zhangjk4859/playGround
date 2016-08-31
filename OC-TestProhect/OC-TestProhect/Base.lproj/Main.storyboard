@@ -260,6 +260,12 @@
                                             <action selector="forward:" destination="XEe-dE-qQI" id="Qpv-yp-Lmf"/>
                                         </connections>
                                     </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TIg-tA-GMt"/>
+                                    <barButtonItem title="首页" id="1LM-YR-qwd">
+                                        <connections>
+                                            <action selector="homePage:" destination="XEe-dE-qQI" id="c6E-98-huG"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="lju-5r-ocB"/>
                                     <barButtonItem systemItem="refresh" id="p1x-6C-IcN">
                                         <connections>
@@ -288,7 +294,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="15k-ek-2hA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2377" y="-91"/>
+            <point key="canvasLocation" x="2519" y="-145"/>
         </scene>
     </scenes>
 </document>

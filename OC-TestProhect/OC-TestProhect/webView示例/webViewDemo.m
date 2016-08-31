@@ -34,8 +34,14 @@
 }
 - (IBAction)refresh:(UIBarButtonItem *)sender {
     [self.webView reload];
-    [self.webView ];
+    
 }
+
+- (IBAction)homePage:(UIBarButtonItem *)sender {
+    
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.baidu.com"]]];
+}
+
 
 #pragma mark UIWebViewDelegate
 -(void)webViewDidStartLoad:(UIWebView *)webView
