@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Tov-26-spr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="XEe-dE-qQI">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -230,6 +230,65 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eMD-hc-R8l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1888" y="-145"/>
+        </scene>
+        <!--Web View Demo-->
+        <scene sceneID="VlV-bx-tnf">
+            <objects>
+                <viewController id="XEe-dE-qQI" customClass="webViewDemo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9d0-SH-g4D"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ekx-He-uhr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fcp-tj-2rV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="48j-eC-ekS">
+                                <rect key="frame" x="0.0" y="20" width="600" height="536"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NxI-Dp-p2L">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem title="后退" id="SFs-8u-y6f">
+                                        <connections>
+                                            <action selector="backward:" destination="XEe-dE-qQI" id="dRG-s8-TT7"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="前进" id="geZ-qQ-Avb">
+                                        <connections>
+                                            <action selector="forward:" destination="XEe-dE-qQI" id="Qpv-yp-Lmf"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="lju-5r-ocB"/>
+                                    <barButtonItem systemItem="refresh" id="p1x-6C-IcN">
+                                        <connections>
+                                            <action selector="refresh:" destination="XEe-dE-qQI" id="Fd2-sF-6af"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="48j-eC-ekS" firstAttribute="leading" secondItem="Fcp-tj-2rV" secondAttribute="leading" id="6HH-6a-LOO"/>
+                            <constraint firstAttribute="trailing" secondItem="48j-eC-ekS" secondAttribute="trailing" id="6Yo-uE-ASJ"/>
+                            <constraint firstItem="48j-eC-ekS" firstAttribute="top" secondItem="9d0-SH-g4D" secondAttribute="bottom" id="9FS-kd-Q43"/>
+                            <constraint firstItem="Ekx-He-uhr" firstAttribute="top" secondItem="NxI-Dp-p2L" secondAttribute="bottom" id="BoT-a0-m9U"/>
+                            <constraint firstAttribute="trailing" secondItem="NxI-Dp-p2L" secondAttribute="trailing" id="pfI-TE-YP0"/>
+                            <constraint firstItem="NxI-Dp-p2L" firstAttribute="leading" secondItem="Fcp-tj-2rV" secondAttribute="leading" id="w6o-W5-1wq"/>
+                            <constraint firstItem="NxI-Dp-p2L" firstAttribute="top" secondItem="48j-eC-ekS" secondAttribute="bottom" id="xaT-0v-MhY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backward" destination="SFs-8u-y6f" id="UW4-9W-B4V"/>
+                        <outlet property="forward" destination="geZ-qQ-Avb" id="R8d-0F-ZRh"/>
+                        <outlet property="webView" destination="48j-eC-ekS" id="kh1-Le-OVV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="15k-ek-2hA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2377" y="-91"/>
         </scene>
     </scenes>
 </document>
