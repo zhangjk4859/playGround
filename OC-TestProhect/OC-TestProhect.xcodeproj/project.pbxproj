@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0A0775801D77D33A00715CF6 /* test.html in Resources */ = {isa = PBXBuildFile; fileRef = 0A07757F1D77D33A00715CF6 /* test.html */; };
+		0A0775821D7835BC00715CF6 /* JS.html in Resources */ = {isa = PBXBuildFile; fileRef = 0A0775811D7835BC00715CF6 /* JS.html */; };
 		0A18F48B1D6D69A5009F7C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18F48A1D6D69A5009F7C55 /* main.m */; };
 		0A18F48E1D6D69A5009F7C55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18F48D1D6D69A5009F7C55 /* AppDelegate.m */; };
 		0A18F4911D6D69A5009F7C55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A18F4901D6D69A5009F7C55 /* ViewController.m */; };
@@ -54,6 +55,7 @@
 
 /* Begin PBXFileReference section */
 		0A07757F1D77D33A00715CF6 /* test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test.html; sourceTree = "<group>"; };
+		0A0775811D7835BC00715CF6 /* JS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JS.html; sourceTree = "<group>"; };
 		0A18F4861D6D69A5009F7C55 /* OC-TestProhect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC-TestProhect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A18F48A1D6D69A5009F7C55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A18F48C1D6D69A5009F7C55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -302,6 +304,7 @@
 				0AC15A501D76DEAF005E1782 /* webViewDemo.h */,
 				0AC15A511D76DEAF005E1782 /* webViewDemo.m */,
 				0A07757F1D77D33A00715CF6 /* test.html */,
+				0A0775811D7835BC00715CF6 /* JS.html */,
 			);
 			path = "webView示例";
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0775821D7835BC00715CF6 /* JS.html in Resources */,
 				0A5F01EA1D702E5F00E653C8 /* NSOperationQueueDemo2.xib in Resources */,
 				0A18F4991D6D69A5009F7C55 /* LaunchScreen.storyboard in Resources */,
 				0A0775801D77D33A00715CF6 /* test.html in Resources */,
