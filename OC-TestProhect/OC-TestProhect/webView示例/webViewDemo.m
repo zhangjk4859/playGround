@@ -28,7 +28,7 @@
     self.webView.delegate = self;
     
    NSMethodSignature *signature = [webViewDemo instanceMethodSignatureForSelector:@selector(openFlash)];
-    NSInvocation *invocation = [NSInvocation invocati];
+    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:signature];
     
 }
 

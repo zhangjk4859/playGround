@@ -26,6 +26,8 @@
 		0A5F01EF1D702F7800E653C8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01EE1D702F7800E653C8 /* TableViewController.m */; };
 		0A5F01F11D70301600E653C8 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F01F01D70301600E653C8 /* apps.plist */; };
 		0A5F01F71D7030CB00E653C8 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01F61D7030CB00E653C8 /* App.m */; };
+		0A6765751D796E5900174694 /* zjk.html in Resources */ = {isa = PBXBuildFile; fileRef = 0A6765741D796E5900174694 /* zjk.html */; };
+		0A6765791D79981800174694 /* downloadPause.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6765781D79981800174694 /* downloadPause.m */; };
 		0A79B4B81D719177007FC036 /* RunloopDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79B4B71D719177007FC036 /* RunloopDemoVC.m */; };
 		0AB92FCB1D73DFD60071D42C /* NSURLConnectionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB92FCA1D73DFD60071D42C /* NSURLConnectionDemo.m */; };
 		0AB92FD01D73F6CC0071D42C /* PostMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB92FCF1D73F6CC0071D42C /* PostMethod.m */; };
@@ -88,6 +90,9 @@
 		0A5F01F01D70301600E653C8 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
 		0A5F01F51D7030CB00E653C8 /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
 		0A5F01F61D7030CB00E653C8 /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
+		0A6765741D796E5900174694 /* zjk.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = zjk.html; sourceTree = "<group>"; };
+		0A6765771D79981800174694 /* downloadPause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = downloadPause.h; sourceTree = "<group>"; };
+		0A6765781D79981800174694 /* downloadPause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = downloadPause.m; sourceTree = "<group>"; };
 		0A79B4B61D719177007FC036 /* RunloopDemoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunloopDemoVC.h; sourceTree = "<group>"; };
 		0A79B4B71D719177007FC036 /* RunloopDemoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunloopDemoVC.m; sourceTree = "<group>"; };
 		0AB92FC91D73DFD60071D42C /* NSURLConnectionDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionDemo.h; sourceTree = "<group>"; };
@@ -158,6 +163,7 @@
 		0A18F4881D6D69A5009F7C55 /* OC-TestProhect */ = {
 			isa = PBXGroup;
 			children = (
+				0A6765761D7997F900174694 /* 断点下载 */,
 				0AC15A4F1D76DE5E005E1782 /* webView示例 */,
 				0AB92FD11D74154E0071D42C /* JSON的故事 */,
 				0AB92FC51D73DF300071D42C /* NSURLConnection示例 */,
@@ -239,6 +245,15 @@
 			path = "tableView示例";
 			sourceTree = "<group>";
 		};
+		0A6765761D7997F900174694 /* 断点下载 */ = {
+			isa = PBXGroup;
+			children = (
+				0A6765771D79981800174694 /* downloadPause.h */,
+				0A6765781D79981800174694 /* downloadPause.m */,
+			);
+			path = "断点下载";
+			sourceTree = "<group>";
+		};
 		0A79B4B51D719151007FC036 /* Runloop示例 */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,6 +320,7 @@
 				0AC15A511D76DEAF005E1782 /* webViewDemo.m */,
 				0A07757F1D77D33A00715CF6 /* test.html */,
 				0A0775811D7835BC00715CF6 /* JS.html */,
+				0A6765741D796E5900174694 /* zjk.html */,
 			);
 			path = "webView示例";
 			sourceTree = "<group>";
@@ -434,6 +450,7 @@
 			files = (
 				0A0775821D7835BC00715CF6 /* JS.html in Resources */,
 				0A5F01EA1D702E5F00E653C8 /* NSOperationQueueDemo2.xib in Resources */,
+				0A6765751D796E5900174694 /* zjk.html in Resources */,
 				0A18F4991D6D69A5009F7C55 /* LaunchScreen.storyboard in Resources */,
 				0A0775801D77D33A00715CF6 /* test.html in Resources */,
 				0A18F4961D6D69A5009F7C55 /* Assets.xcassets in Resources */,
@@ -515,6 +532,7 @@
 				0AB92FD41D7415640071D42C /* JSONController.m in Sources */,
 				0A5F01E51D6FE75B00E653C8 /* NSOperationDemo.m in Sources */,
 				0A3C2B491D7562A700AE8AC8 /* RunLoopObserver.m in Sources */,
+				0A6765791D79981800174694 /* downloadPause.m in Sources */,
 				0A5F01E91D702E5F00E653C8 /* NSOperationQueueDemo2.m in Sources */,
 				0AE88DF31D7288CF00FF9660 /* AddRunloopDemo.m in Sources */,
 				0A5F01F71D7030CB00E653C8 /* App.m in Sources */,
