@@ -18,7 +18,7 @@
 #define existFileLength [[[NSFileManager defaultManager] attributesOfItemAtPath:downloadFilePath error:nil][NSFileSize] integerValue]
 
 
-@interface downloadPause ()<NSURLSessionDataDelegate>
+@interface downloadPause ()<NSURLSessionDelegate>
 /**下载任务*/
 @property(nonatomic,strong)NSURLSessionDataTask *task;
 /**下载会话*/
