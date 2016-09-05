@@ -322,13 +322,6 @@
                                     <action selector="pause:" destination="cYy-jh-a4Z" eventType="touchUpInside" id="14w-iz-JxM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJQ-VA-eYN">
-                                <rect key="frame" x="56" y="138" width="57" height="30"/>
-                                <state key="normal" title="继续"/>
-                                <connections>
-                                    <action selector="continue:" destination="cYy-jh-a4Z" eventType="touchUpInside" id="cg2-OM-RN8"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

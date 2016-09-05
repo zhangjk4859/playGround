@@ -18,7 +18,7 @@
 #define existFileLength [[[NSFileManager defaultManager] attributesOfItemAtPath:downloadFilePath error:nil][NSFileSize] integerValue]
 
 
-@interface downloadPause ()<NSURLSessionDelegate>
+@interface downloadPause ()<NSURLSessionDataDelegate>
 /**下载任务*/
 @property(nonatomic,strong)NSURLSessionDataTask *task;
 /**下载会话*/
@@ -37,8 +37,7 @@
 - (NSURLSession *)session
 {
     if (!_session) {
-        _session = [NSURLSession sharedSession];
-        _session.delegate = self;
+        _session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate:self delegateQueue:[[NSOperationQueue alloc] init]];
     }
     return _session;
 }
@@ -51,11 +50,29 @@
     return _stream;
 }
 
+//task懒加载
+- (NSURLSessionDataTask *)task
+{
+    if (!_task) {
+        
+        //创建请求
+        NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:videoURLStr]];
+        //设置请求头 从已经存在的长度开始下载
+        NSInteger start = existFileLength;
+        NSString *range = [NSString stringWithFormat:@"bytes=%zd-",start];
+        [request setValue:range forHTTPHeaderField:@"Range"];
+        
+        //创建一个data任务
+        _task  = [self.session dataTaskWithRequest:request];
+        
+    }
+    return _task;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-   //文件已经下载的长度
-    NSDictionary *attrs = [[NSFileManager defaultManager] attributesOfItemAtPath:downloadFilePath error:nil];
+   
     
     
 
@@ -63,24 +80,47 @@
 
 - (IBAction)start:(UIButton *)sender {
     
-    //创建请求
-    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:videoURLStr]];
-    //设置请求头 从已经存在的长度开始下载
-    NSInteger start = existFileLength;
-    NSString *range = [NSString stringWithFormat:@"bytes=%zd-",start];
-    [request setValue:range forHTTPHeaderField:@"Range"];
-    
-    //创建一个data任务
-    self.task = [self.session dataTaskWithRequest:request];
     
     [self.task resume];
 }
 
 - (IBAction)pause:(UIButton *)sender {
+    [self.task suspend];
 }
 
-- (IBAction)continue:(UIButton *)sender {
+
+
+
+#pragma mark NSURLSessionDataDelegate
+//接受到数据第一次响应
+-(void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveResponse:(NSHTTPURLResponse *)response completionHandler:(void (^)(NSURLSessionResponseDisposition))completionHandler
+{
+    [self.stream open];
+    
+    self.fileLength = [response.allHeaderFields[@"Content-Length"] integerValue] + existFileLength;//上次已经下载好的文件长度
+    
+    //允许接受服务器数据
+    completionHandler(NSURLSessionResponseAllow);
+    
 }
 
+
+//接受到具体的数据
+-(void)URLSession:(NSURLSession *)session dataTask:(NSURLSessionDataTask *)dataTask didReceiveData:(NSData *)data
+{
+    //写入数据
+    [self.stream write:data.bytes maxLength:data.length];
+    
+    //打印下载进度
+    NSLog(@"%f",1.0 * existFileLength / self.fileLength);
+}
+
+//下载完毕以后
+-(void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didCompleteWithError:(NSError *)error
+{
+    //关闭写入流
+    [self.stream close];
+    self.stream = nil;
+}
 
 @end
