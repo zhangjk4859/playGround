@@ -26,6 +26,8 @@
 		0A5F01EF1D702F7800E653C8 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01EE1D702F7800E653C8 /* TableViewController.m */; };
 		0A5F01F11D70301600E653C8 /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F01F01D70301600E653C8 /* apps.plist */; };
 		0A5F01F71D7030CB00E653C8 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F01F61D7030CB00E653C8 /* App.m */; };
+		0A673BE41D7EBEA40087505A /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A673BE31D7EBEA40087505A /* MenuController.m */; };
+		0A673BE71D7EC3030087505A /* JKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A673BE61D7EC3030087505A /* JKLabel.m */; };
 		0A6765751D796E5900174694 /* zjk.html in Resources */ = {isa = PBXBuildFile; fileRef = 0A6765741D796E5900174694 /* zjk.html */; };
 		0A6765791D79981800174694 /* downloadPause.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6765781D79981800174694 /* downloadPause.m */; };
 		0A79B4B81D719177007FC036 /* RunloopDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A79B4B71D719177007FC036 /* RunloopDemoVC.m */; };
@@ -90,6 +92,10 @@
 		0A5F01F01D70301600E653C8 /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
 		0A5F01F51D7030CB00E653C8 /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
 		0A5F01F61D7030CB00E653C8 /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
+		0A673BE21D7EBEA40087505A /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		0A673BE31D7EBEA40087505A /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
+		0A673BE51D7EC3030087505A /* JKLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKLabel.h; sourceTree = "<group>"; };
+		0A673BE61D7EC3030087505A /* JKLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKLabel.m; sourceTree = "<group>"; };
 		0A6765741D796E5900174694 /* zjk.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = zjk.html; sourceTree = "<group>"; };
 		0A6765771D79981800174694 /* downloadPause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = downloadPause.h; sourceTree = "<group>"; };
 		0A6765781D79981800174694 /* downloadPause.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = downloadPause.m; sourceTree = "<group>"; };
@@ -163,6 +169,7 @@
 		0A18F4881D6D69A5009F7C55 /* OC-TestProhect */ = {
 			isa = PBXGroup;
 			children = (
+				0A673BE11D7EBE830087505A /* 菜单控制器 */,
 				0A6765761D7997F900174694 /* 断点下载 */,
 				0AC15A4F1D76DE5E005E1782 /* webView示例 */,
 				0AB92FD11D74154E0071D42C /* JSON的故事 */,
@@ -243,6 +250,17 @@
 				0A5F01F61D7030CB00E653C8 /* App.m */,
 			);
 			path = "tableView示例";
+			sourceTree = "<group>";
+		};
+		0A673BE11D7EBE830087505A /* 菜单控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				0A673BE21D7EBEA40087505A /* MenuController.h */,
+				0A673BE31D7EBEA40087505A /* MenuController.m */,
+				0A673BE51D7EC3030087505A /* JKLabel.h */,
+				0A673BE61D7EC3030087505A /* JKLabel.m */,
+			);
+			path = "菜单控制器";
 			sourceTree = "<group>";
 		};
 		0A6765761D7997F900174694 /* 断点下载 */ = {
@@ -529,6 +547,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A44AD1B1D6E95E80052FCBB /* ThreadDemo.m in Sources */,
+				0A673BE71D7EC3030087505A /* JKLabel.m in Sources */,
 				0AB92FD41D7415640071D42C /* JSONController.m in Sources */,
 				0A5F01E51D6FE75B00E653C8 /* NSOperationDemo.m in Sources */,
 				0A3C2B491D7562A700AE8AC8 /* RunLoopObserver.m in Sources */,
@@ -541,6 +560,7 @@
 				0A18F4911D6D69A5009F7C55 /* ViewController.m in Sources */,
 				0A18F48E1D6D69A5009F7C55 /* AppDelegate.m in Sources */,
 				0A79B4B81D719177007FC036 /* RunloopDemoVC.m in Sources */,
+				0A673BE41D7EBEA40087505A /* MenuController.m in Sources */,
 				0AB92FD01D73F6CC0071D42C /* PostMethod.m in Sources */,
 				0A18F48B1D6D69A5009F7C55 /* main.m in Sources */,
 				0A5F01EF1D702F7800E653C8 /* TableViewController.m in Sources */,
