@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '71E1F003D9FBB7B83F674807'
-               BlueprintName = 'SDWebImage'
+               BlueprintIdentifier = '7B2297F0F1B0242F25214CE2'
+               BlueprintName = 'CocoaAsyncSocket'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libSDWebImage.a'>
+               BuildableName = 'libCocoaAsyncSocket.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
