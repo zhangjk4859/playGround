@@ -1,0 +1,1 @@
+../../../Easemob/EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatCryptor.h

@@ -1,0 +1,10 @@
+PODS:
+  - Easemob (2.1.4)
+
+DEPENDENCIES:
+  - Easemob
+
+SPEC CHECKSUMS:
+  Easemob: 0da2d47def09bb7e8b8a4e6b8f7745d2a684fd5b
+
+COCOAPODS: 0.39.0
