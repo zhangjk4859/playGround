@@ -10,6 +10,64 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>007764BBCA18E12F4A699CDB57BD58F5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1DA94BFFE25392ECA179F2A01EF398D8</string>
+				<string>72A2B8CED6B08641EC41F8E755087C0F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>017315E1A2836741C411EF9921229C20</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C945E12EC6E7A3AD58EC889B2EA79717</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0200163978476676EFD037DB97EA7C48</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMDeviceManagerLocationDelegate.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerLocationDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>02F44A636F7FEC718AD17457109F5C26</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IDeviceManager.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/IDeviceManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>037C0CA694176A3C0915F62C9D20B3E6</key>
 		<dict>
 			<key>children</key>
@@ -23,7 +81,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>049548A24B9365803F886A05E3C926DC</key>
+		<key>04312004EE139EAE594B299F82C77210</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -32,13 +90,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMVoiceMessageBody.h</string>
+			<string>EMChatServiceDefs.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMVoiceMessageBody.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatServiceDefs.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>062DCF279E379D020AC678780CEED916</key>
+		<key>068E0D3A618981A8DBEDC001CE222A3C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -47,13 +105,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMChatManagerLoginDelegate.h</string>
+			<string>SDWebImageManager.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerLoginDelegate.h</string>
+			<string>SDWebImage/SDWebImageManager.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>069AA2165E8610E3191D90C2ADFB8419</key>
+		<key>086303DBCAFFAE154614EF2B1DF416E6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -62,28 +120,42 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EaseMobHeaders.h</string>
+			<string>UIImageView+HighlightedWebCache.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/EaseMobClientSDKLite/EaseMobHeaders.h</string>
+			<string>SDWebImage/UIImageView+HighlightedWebCache.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>077C6BBFCE415D7AAEFC4124DD0C14AE</key>
+		<key>0A49FFDE1A3F185088668104DBC22EF7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>EMError.h</string>
+			<string>UIImageView+HighlightedWebCache.m</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/Utility/ErrorManager/EMError.h</string>
+			<string>SDWebImage/UIImageView+HighlightedWebCache.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>08CED211350B1EC7102ABC182FAFDBDB</key>
+		<key>0AAF6F58C14EC227A3569C4AC021374A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3AB5C8A71D860EC74FAAABA2F6A0C95F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0E35F421A33B22743456DC12D6971B15</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -92,13 +164,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IEMChatProgressDelegate.h</string>
+			<string>EMChatManagerBuddyDelegate.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatProgressDelegate.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerBuddyDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0F24C592B7D81C4718D8405FDF692ACF</key>
+		<key>0F3478FC945E7C75ED1DBF47D3B6E1E5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1F94F113FC88CDAE40E4FC4862E43D86</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0F8E79E5DC8FFA0B5D6C5BBB96540A1E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -107,9 +186,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMBuddyGroup.h</string>
+			<string>EMMessage.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMBuddyGroup.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0FA7D0512073AC6AA99F44D4F2E8F9D4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMDeviceManagerProximitySensorDelegate.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerProximitySensorDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -126,19 +220,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1469924FC52F60B0068FA24EEFCB3EFC</key>
+		<key>122BC0DDFA2D0FAD098E79F9FF495B56</key>
 		<dict>
 			<key>buildConfigurationList</key>
-			<string>5C358AA8BB91700063133597D41C4E0E</string>
+			<string>817FAF6D97C2442DD26350A853D39815</string>
 			<key>buildPhases</key>
 			<array>
-				<string>60DB2522D6809309FA2F3B04848E7536</string>
-				<string>2E78C4AC537A1782BCFD134B2B8940E0</string>
+				<string>B1231C0F68C64954E8C75C43EAF82E8D</string>
+				<string>822FE340C18237D6F1AB6C5C70525441</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
 			<key>dependencies</key>
-			<array/>
+			<array>
+				<string>A22A6C9609C128D2920F1C8E3B0AB40F</string>
+			</array>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
@@ -146,11 +242,11 @@
 			<key>productName</key>
 			<string>Pods</string>
 			<key>productReference</key>
-			<string>BFDCEDF11CC5329E8A2F6885DA7FBE21</string>
+			<string>7DF46675634E1D7BD6B981AD50AEC8CA</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>18644DB62C63A32905A4CD28CCE6AD48</key>
+		<key>122C8C514DC6239F586DC7B0126A4DD5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -159,13 +255,391 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMLocationMessageBody.h</string>
+			<string>commonDefs.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMLocationMessageBody.h</string>
+			<string>EaseMobSDK/include/Utility/commonDefs.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>18A5F5A65969ED0366A2CB34238C8FF5</key>
+		<key>16A31E4306039EA00FD2F50CCAAE971E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>086303DBCAFFAE154614EF2B1DF416E6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>18C43762F23627B127351C9B8741D8F3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SDWebImagePrefetcher.h</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImagePrefetcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>18CDF7FD0A8BB42CA587D2FF4DD0683E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F3AF5A509E5BC534BD7EAE78DA44E75D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SDWebImage/SDWebImage-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>1939D049661E8BFC1A5D28F103D9CFC5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IDeviceManagerDevice.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerDevice.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1A3FC1C22C9A5582FC1DDDA01D9D4531</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMChatLocation.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatLocation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1CDC8D9B425819C6938D5F6D9ACF6DFF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4D239F4719B55400CE3F764C089E9031</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1DA94BFFE25392ECA179F2A01EF398D8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>122C8C514DC6239F586DC7B0126A4DD5</string>
+				<string>CDCE5ECDBCC6D53E52455C05929E7CC4</string>
+				<string>3ADC79608BF3620434CC3A1D8C55198E</string>
+				<string>E495FB28F6C72DA07436AE42A7195CFE</string>
+				<string>EF2EAA91DB4D44ECE59217A40DBDCECE</string>
+				<string>9A42E7DD3E6E1868D3FD8827AB9AF4A5</string>
+				<string>BC2A5B8B1BDC4490B95C3974FE9A0052</string>
+				<string>1A3FC1C22C9A5582FC1DDDA01D9D4531</string>
+				<string>0E35F421A33B22743456DC12D6971B15</string>
+				<string>8833AAA7118463B1F0E08F602EA6092A</string>
+				<string>23A9FAEB2F0453AC64E2457B6AF0D547</string>
+				<string>C76994E818DD59311AD7C3A681448B3B</string>
+				<string>3F4E3AA255450AFA2DBEBBA2E7E9CD2F</string>
+				<string>47603D0D8D8395D625A4D8FC11AB74F7</string>
+				<string>5F51F41A98544CD9429AA8A22BFC53BD</string>
+				<string>84489898D44A236CD05019571A6E5697</string>
+				<string>704483E000DF78CC3F3BCE3966257047</string>
+				<string>E49FD1499F951BD70E1713CA19C8E534</string>
+				<string>04312004EE139EAE594B299F82C77210</string>
+				<string>C8399A26A08FC14F1361BBD9C87B7F20</string>
+				<string>4B2A1520F4149509766FF289255D69C4</string>
+				<string>76742878298B527AB6565A1AFEC53F75</string>
+				<string>EC7EB752ABD4921774BC4141FDDCC7B5</string>
+				<string>935C3AAAD2E20B7D96F5FDBFD61481F4</string>
+				<string>DCABE2E6B17F9DBEB8AE1953437F34F3</string>
+				<string>A8EE405B4779A38DBD5FC8937E7B76CF</string>
+				<string>0200163978476676EFD037DB97EA7C48</string>
+				<string>893098A41F16D9A2DA025F09AE4E4649</string>
+				<string>CFCC9201F8592231A777AC08AF6534CC</string>
+				<string>0FA7D0512073AC6AA99F44D4F2E8F9D4</string>
+				<string>940C04D926F0A1501455BCE941280902</string>
+				<string>90A0A54EF46C9656C5B02D5DDDCD4979</string>
+				<string>B965F4070FE75916728023F2994F94C0</string>
+				<string>F34F2DE19B242EFA9A1DA9094B0F2E3F</string>
+				<string>4739FA600BC20FEB9DC3E77939C2B8CA</string>
+				<string>80B29DD0991AA5A105EE15E40B087BE1</string>
+				<string>B3928B370E8C76BB3E84241177CF0247</string>
+				<string>0F8E79E5DC8FFA0B5D6C5BBB96540A1E</string>
+				<string>B1FC9018DD0B07FC388788E72DF5B2E2</string>
+				<string>20D9BE15F91BC70B47A9318556A21E84</string>
+				<string>278E501F03817EB141550E73DAB6845F</string>
+				<string>7039ACF2F4BB1FE93F0A5A0BE3A8866C</string>
+				<string>6EE9637B18928F54BA76B1E9C9581903</string>
+				<string>38E742FE1A0A9CBE135E9FD66D3BD7A1</string>
+				<string>D4215C6E1812591125FBE3FFD36D2988</string>
+				<string>881A03759FEB7809F22E5448DE2891F4</string>
+				<string>F92CD84A70113F7F4EA2F4F553849CE0</string>
+				<string>515FAE6EECD3D33158162CB0D284793D</string>
+				<string>46705390FC9953BED81A3246BDD9B863</string>
+				<string>83CFE8D3E31041D5DE5A807E8EAC9BE3</string>
+				<string>EDB8600542A900E92E61C1E36D0FE100</string>
+				<string>3EE26B55E33DD4A1C0580FEA31F02F8E</string>
+				<string>5EEDB478834D152699DA29A4A7AAED5D</string>
+				<string>E4CCDCB5BDE9A57584801A25DE0A54D2</string>
+				<string>D9E798EACF77BAE828D298547EE8949D</string>
+				<string>EA9FEA61607B8DCC3F7DF445CB4A15B5</string>
+				<string>EE4C3BE6BEB34DF619D49323D163D161</string>
+				<string>741F1D7E4A147D0C8D285F3B85AADDDC</string>
+				<string>02F44A636F7FEC718AD17457109F5C26</string>
+				<string>CDE3B9DFC42D48FA5972419C4F6D65B5</string>
+				<string>9BCE13322A7D5139FD539A447B2C135F</string>
+				<string>938E352DAAD0563DC2BA08B46F0535D8</string>
+				<string>1939D049661E8BFC1A5D28F103D9CFC5</string>
+				<string>25B5A99262D1E911881B4DC20CF37CC7</string>
+				<string>29EAACAEACEE1AA47ED4BFEFEAAEBD8A</string>
+				<string>AB1CA297A7BE49E73F94DA6639EEEFF7</string>
+				<string>207E5D1245443120F02CF8F7B44AAAA6</string>
+				<string>AFDA07CD648B4AE5D93079E25E0D1017</string>
+				<string>4C2C277AB300303AABAD1645CC000146</string>
+				<string>6C01285D13234AF892B5791B784B60CB</string>
+				<string>DD2FE8987CDDB5F19F074B54E8F7D180</string>
+				<string>72FB5CCA0A02FFCD473A99ED2F148EA4</string>
+				<string>A32E1F4225215F6E00B6E4031777E83F</string>
+				<string>F3F30CA7C58176CADD014DAFCCF7EE35</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Easemob</string>
+			<key>path</key>
+			<string>Easemob</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F94F113FC88CDAE40E4FC4862E43D86</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImageDecoder.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageDecoder.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1FBEEB0F2CD0E51E9EBA3C03E2D77DF7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImageView+WebCache.h</string>
+			<key>path</key>
+			<string>SDWebImage/UIImageView+WebCache.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1FEBC037738DDF0A71AE02AB98D3D1F2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1FBEEB0F2CD0E51E9EBA3C03E2D77DF7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>207E5D1245443120F02CF8F7B44AAAA6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IEMChatCryptor.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatCryptor.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>20D9BE15F91BC70B47A9318556A21E84</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMPushNotificationOptions.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMPushNotificationOptions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>220E312F3D960F50848DF45A39AA0A59</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8F15262C5ACFD22C325DA3CBF7C4BAC9</string>
+				<string>42D67F66CCCAD396AACC6C3E2B21EFBA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>23A9FAEB2F0453AC64E2457B6AF0D547</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMChatManagerDelegate.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25B5A99262D1E911881B4DC20CF37CC7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IDeviceManagerLocation.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerLocation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2663286F399C0F51D39CFC51D6978C86</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImageCompat.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageCompat.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>26942AD262629324CCBC35A28801A9CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIButton+WebCache.m</string>
+			<key>path</key>
+			<string>SDWebImage/UIButton+WebCache.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27124F76E996930FD405B74265B06624</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E967DCEAB64FF2ACE12D52D97FAB8B61</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>272643F56613CA0D336AE3DBF19DC404</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>278E501F03817EB141550E73DAB6845F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMReceiptBase.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMReceiptBase.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>27E4BA03BA7145B95986F505B140CACF</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
@@ -197,7 +671,21 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>1A15AB0D3DBF7E0C91C79B01078DD2E6</key>
+		<key>29074F97CD370A8E12B9C904D50FD7C8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>83E0975103DCF7E58CDCD752513F145E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2930A6DD340D52376EB17BA723C80BF1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -206,13 +694,27 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMChatLocation.h</string>
+			<string>SDWebImageDecoder.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatLocation.h</string>
+			<string>SDWebImage/SDWebImageDecoder.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>1ABD11F9A25546EFA6DF91AA15064429</key>
+		<key>2972DF9EBF8582B753FDD450E1BBF9BC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B32654B0074E393D7828E467678E430F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>29EAACAEACEE1AA47ED4BFEFEAAEBD8A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -221,108 +723,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IEMChatObject.h</string>
+			<string>IDeviceManagerMedia.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1CC4768FFC74D851DAB84A371B0E6B4D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatManagerUtilDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerUtilDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1DEDEF28FF1B15EB1D0EAAB2D4D13B0A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FA473233551C42B454EE1C10CF7A0E1F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F0B9F713A13B4F29BE0C0E7483B187B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BFDCEDF11CC5329E8A2F6885DA7FBE21</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>24318E12049C828C0D7408E45B45B63C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMDeviceManagerMediaDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerMediaDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2490ED7F9F78F4EDC093640573D2A8C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatManagerMediaDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerMediaDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>272643F56613CA0D336AE3DBF19DC404</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>292C415D3175740B4B13F5F3BD13CB16</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IDeviceManager.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/IDeviceManager.h</string>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerMedia.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -413,64 +816,6 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2E78C4AC537A1782BCFD134B2B8940E0</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>6E579FF358AF2261C8682A7FA383EAA6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>32242A756D56A61B6FD3FAED0AB871FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IChatManagerEncryption.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerEncryption.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>32C87D73FA0DC473E3C8A1A5846145DB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatManagerDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>344FB972E9938CA3F1DC4502A903B62F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatManagerBuddyDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerBuddyDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -484,50 +829,14 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A635C82E977738AA66E719D697AD3D0</key>
+		<key>3822ABDDE683E76274C9B758A9E2EC23</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>BED4291B83D30AFCA501160FE9B1D56F</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatManagerChatDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerChatDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>3DDC7EB6C68DF8D32D3E2274F4B5E8F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMImageMessageBody.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMImageMessageBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3F4282768AD02694C2D41E06B61B083D</key>
+		<key>38E742FE1A0A9CBE135E9FD66D3BD7A1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -542,7 +851,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>428F582051BDBB9D24DDCF012CFA8C73</key>
+		<key>3A4F7C53E52FB3A4A14A58803501AB46</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIView+WebCacheOperation.m</string>
+			<key>path</key>
+			<string>SDWebImage/UIView+WebCacheOperation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3AB5C8A71D860EC74FAAABA2F6A0C95F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -551,13 +875,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMChatManagerDelegateBase.h</string>
+			<string>SDImageCache.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerDelegateBase.h</string>
+			<string>SDWebImage/SDImageCache.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>446404814323E42E46122C77CD5340CF</key>
+		<key>3ADC79608BF3620434CC3A1D8C55198E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -566,13 +890,20 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IDeviceManagerDelegate.h</string>
+			<string>EaseMobHeaders.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/IDeviceManagerDelegate.h</string>
+			<string>EaseMobSDK/include/EaseMobClientSDKLite/EaseMobHeaders.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>47B7820C03935A85049A192D6E5DEA45</key>
+		<key>3E2801995206C8F7DECFF1E37AB8D7BD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DFA2A0D7CB9DCD31764CC8A3D6ADDCE5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3EE26B55E33DD4A1C0580FEA31F02F8E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -581,13 +912,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMErrorDefs.h</string>
+			<string>IChatManagerDelegate.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/Utility/ErrorManager/EMErrorDefs.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/IChatManagerDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4955EFDF015D415CB5AF6A6F535BBCBD</key>
+		<key>3F4E3AA255450AFA2DBEBBA2E7E9CD2F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -596,13 +927,83 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IDeviceManagerProximitySensor.h</string>
+			<string>EMChatManagerEncryptionDelegate.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerProximitySensor.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerEncryptionDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4A8DA9EF279276A6B0CAA80AACE38630</key>
+		<key>42D67F66CCCAD396AACC6C3E2B21EFBA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>609DD8EF242B56172BA66E6B780EFC65</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>433CD3331B6C3787F473C941B61FC68F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FF880E94BC5F1B73ECBD6429796DC5C3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>454F404131B48E1E4C9DD0DEC9C9D303</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2663286F399C0F51D39CFC51D6978C86</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4630A6644E76AADF263AE66897C3F8DF</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>46705390FC9953BED81A3246BDD9B863</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IChatManagerBuddy.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerBuddy.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4739FA600BC20FEB9DC3E77939C2B8CA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMGroupStyleSetting.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMGroupStyleSetting.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>47603D0D8D8395D625A4D8FC11AB74F7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -617,7 +1018,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4D09E3D5D02A7C1E213504018DBB737A</key>
+		<key>4B2A1520F4149509766FF289255D69C4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -626,9 +1027,53 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMPushNotificationOptions.h</string>
+			<string>EMChatVideo.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMPushNotificationOptions.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatVideo.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4C01600A01D62B5443175927DBC17C51</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6CC84CF1BC583B42DCBA09193481D1FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4C2C277AB300303AABAD1645CC000146</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IEMChatObject.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatObject.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4C4C22E91416ED7EE66FE723961B3D99</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5B6DC30AE1BA3FB4337FE064BACDD40A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4D239F4719B55400CE3F764C089E9031</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SDWebImageDownloaderOperation.h</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageDownloaderOperation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -645,7 +1090,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4E98982457EC78475BB7E44A9E36B7EE</key>
+		<key>515FAE6EECD3D33158162CB0D284793D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -654,26 +1099,43 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IChatManagerMedia.h</string>
+			<string>IChatManagerBase.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerMedia.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerBase.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>54C04213B742AA7C3557FA4033939762</key>
+		<key>5676ACECFC3057323D65F6CA290888A0</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>baseConfigurationReference</key>
+			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>IChatManager.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/IChatManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Release</string>
 		</dict>
 		<key>5A0C6FE968931D888F00C9EC18DDF5BC</key>
 		<dict>
@@ -743,36 +1205,36 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>5AF59BA5E0165ED8C4F11025746CA0E3</key>
+		<key>5AA920113D723C814D2E5286F1ABD62D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>18C43762F23627B127351C9B8741D8F3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5B6DC30AE1BA3FB4337FE064BACDD40A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>EMDeviceManagerDefs.h</string>
+			<string>SDImageCache.m</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/EMDeviceManagerDefs.h</string>
+			<string>SDWebImage/SDImageCache.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5C358AA8BB91700063133597D41C4E0E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>18A5F5A65969ED0366A2CB34238C8FF5</string>
-				<string>7A94C5F17C97650354AADDA3942AABFB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>5F2CBF7A96E33D58A49E4C5497BD0161</key>
+		<key>5EEDB478834D152699DA29A4A7AAED5D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -781,13 +1243,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMChatVideo.h</string>
+			<string>IChatManagerEncryption.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatVideo.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerEncryption.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>60CA2AEB4A2766FF3EF1FA44E46F547C</key>
+		<key>5F51F41A98544CD9429AA8A22BFC53BD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -796,41 +1258,26 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IChatManagerBase.h</string>
+			<string>EMChatManagerLoginDelegate.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerBase.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerLoginDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>60DB2522D6809309FA2F3B04848E7536</key>
+		<key>609DD8EF242B56172BA66E6B780EFC65</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B991A49F4C12A4F8462C02B69D83DB11</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>621C5A16765FC2FC8474E0012E6811AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>EMReceiptBase.h</string>
+			<string>ImageIO.framework</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMReceiptBase.h</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/ImageIO.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>65FAB1CA028B47AE00176A24BC71AE19</key>
+		<key>64A01D9254D172CD0178E3C7E18F4660</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -839,39 +1286,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMGroupStyleSetting.h</string>
+			<string>SDWebImageOperation.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMGroupStyleSetting.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66472298A21422FC43DE278C93A777D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMDeviceManagerDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6674F7ED0CEB6C85EA3C75DA11FC134C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatText.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatText.h</string>
+			<string>SDWebImage/SDWebImageOperation.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -888,7 +1305,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6A9927F06A04BF5EA11BF0BB0D1C3E44</key>
+		<key>6C01285D13234AF892B5791B784B60CB</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -897,230 +1314,28 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMChatManagerEncryptionDelegate.h</string>
+			<string>IEMChatProgressDelegate.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerEncryptionDelegate.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatProgressDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6B5ADEA03FDD432D06956C7D4C808DA7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AD1F04AFA46F21EDE474B2F598BF26FB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6B68ADC6C2B5980946A789A416D82313</key>
+		<key>6CC84CF1BC583B42DCBA09193481D1FC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>commonDefs.h</string>
+			<string>UIImageView+WebCache.m</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/Utility/commonDefs.h</string>
+			<string>SDWebImage/UIImageView+WebCache.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6C60EDC2515B8A64BEBE9987C3434C81</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IDeviceManagerDevice.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerDevice.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E579FF358AF2261C8682A7FA383EAA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6F7AF48D6B3280A2601C74EC032D960F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IChatManagerGroup.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerGroup.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>724C45D04F38E0645675BF81BB8A20F1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IChatManagerChat.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerChat.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7A94C5F17C97650354AADDA3942AABFB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>1DEDEF28FF1B15EB1D0EAAB2D4D13B0A</string>
-				<string>1F0B9F713A13B4F29BE0C0E7483B187B</string>
-				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>838E49D0ED56868774A31473790AB0D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IEMChatCryptor.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatCryptor.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8712802A2091F228907BF7D0BD5BB281</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IEMMessageBody.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMMessageBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89216A2BCDCEFAED23A3C27DC88D34F3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMNetworkMonitorDefs.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMNetworkMonitorDefs.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BAABE871B24505FDB33ED67AF3DC3FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMConversation.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMConversation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BFDA5AC913E1B7F95C6352B869CBDC1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libEaseMobClientSDKLite.a</string>
-			<key>path</key>
-			<string>EaseMobSDK/lib/libEaseMobClientSDKLite.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C6D563943A960180318746ACB43CEBE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IChatManagerUtil.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerUtil.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8F4FE3B722A92720D11C18AFF91B690C</key>
+		<key>6EE9637B18928F54BA76B1E9C9581903</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1135,106 +1350,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9069A0752440815A0CC51C71573606BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMDeviceManagerProximitySensorDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerProximitySensorDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90AE00887F37ABA17C3E80B5673D166C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IDeviceManagerBase.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerBase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>941FAA6FC518D80923AB25AB96B7E3CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IEMFileMessageBody.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMFileMessageBody.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B2251BF240B48C50DE7B62E6F2D85DE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatVoice.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatVoice.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A48039BD4C3DDAD9577F3CE87E718378</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8BFDA5AC913E1B7F95C6352B869CBDC1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4A005231B0E97F89351F90A3FDAD00D</key>
+		<key>7039ACF2F4BB1FE93F0A5A0BE3A8866C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1249,7 +1365,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A82121F71B4DD228D113791CC3DB7021</key>
+		<key>704483E000DF78CC3F3BCE3966257047</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1258,13 +1374,29 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IChatManagerBuddy.h</string>
+			<string>EMChatManagerPushNotificationDelegate.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerBuddy.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerPushNotificationDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AB98C787E93305FB2EA035AA246FBE34</key>
+		<key>72A2B8CED6B08641EC41F8E755087C0F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>801ED69CC000A4746ACA99CC875C2B44</string>
+				<string>D172A5F676D6EB47DD8CED6FC5050314</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SDWebImage</string>
+			<key>path</key>
+			<string>SDWebImage</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>72FB5CCA0A02FFCD473A99ED2F148EA4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1273,13 +1405,28 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMFileMessageBody.h</string>
+			<string>IEMMessageBody.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMFileMessageBody.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMMessageBody.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AC26B91E078846FE75224AB5910E02D4</key>
+		<key>73FFD437517BED9979E41205DB9795D8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+GIF.m</string>
+			<key>path</key>
+			<string>SDWebImage/UIImage+GIF.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>741F1D7E4A147D0C8D285F3B85AADDDC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1288,13 +1435,389 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IDeviceManagerLocation.h</string>
+			<string>IChatManagerUtil.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerLocation.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerUtil.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AD1F04AFA46F21EDE474B2F598BF26FB</key>
+		<key>76742878298B527AB6565A1AFEC53F75</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMChatVoice.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatVoice.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>783574B9297922581321B87DCD09AC61</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ACD02AB8C8076A57D1F3C5278B486836</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7C7549824CD6FD11C75525349DD72E96</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7DF46675634E1D7BD6B981AD50AEC8CA</string>
+				<string>B7D91BD9132B62A9D83DF49480A32CA6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7D6E16489532AC1A63448093E2756B75</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>F814EFF01E53DACE3822C2E8E6F21BE9</string>
+				<string>18CDF7FD0A8BB42CA587D2FF4DD0683E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>433CD3331B6C3787F473C941B61FC68F</string>
+				<string>007764BBCA18E12F4A699CDB57BD58F5</string>
+				<string>7C7549824CD6FD11C75525349DD72E96</string>
+				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7DF46675634E1D7BD6B981AD50AEC8CA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>801ED69CC000A4746ACA99CC875C2B44</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F8743344F2A43D3B11610C839E4783BA</string>
+				<string>DFA2A0D7CB9DCD31764CC8A3D6ADDCE5</string>
+				<string>3AB5C8A71D860EC74FAAABA2F6A0C95F</string>
+				<string>5B6DC30AE1BA3FB4337FE064BACDD40A</string>
+				<string>C945E12EC6E7A3AD58EC889B2EA79717</string>
+				<string>2663286F399C0F51D39CFC51D6978C86</string>
+				<string>2930A6DD340D52376EB17BA723C80BF1</string>
+				<string>1F94F113FC88CDAE40E4FC4862E43D86</string>
+				<string>92CDA49D88923E833150164B6A3697B8</string>
+				<string>BDD3DCAF85D6BD97CEB7DEB0D00FF7C5</string>
+				<string>4D239F4719B55400CE3F764C089E9031</string>
+				<string>A49D4A4C20B798835BA6F750BEE3B51C</string>
+				<string>068E0D3A618981A8DBEDC001CE222A3C</string>
+				<string>CA867B6B3363E45542B0C231429272E0</string>
+				<string>64A01D9254D172CD0178E3C7E18F4660</string>
+				<string>18C43762F23627B127351C9B8741D8F3</string>
+				<string>D174B943128EE0FD567D3BA2DAD96347</string>
+				<string>D835D7D306388F3459ABE81637ACE83C</string>
+				<string>26942AD262629324CCBC35A28801A9CF</string>
+				<string>83E0975103DCF7E58CDCD752513F145E</string>
+				<string>73FFD437517BED9979E41205DB9795D8</string>
+				<string>ACD02AB8C8076A57D1F3C5278B486836</string>
+				<string>E967DCEAB64FF2ACE12D52D97FAB8B61</string>
+				<string>086303DBCAFFAE154614EF2B1DF416E6</string>
+				<string>0A49FFDE1A3F185088668104DBC22EF7</string>
+				<string>1FBEEB0F2CD0E51E9EBA3C03E2D77DF7</string>
+				<string>6CC84CF1BC583B42DCBA09193481D1FC</string>
+				<string>B32654B0074E393D7828E467678E430F</string>
+				<string>3A4F7C53E52FB3A4A14A58803501AB46</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Core</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>80B29DD0991AA5A105EE15E40B087BE1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMImageMessageBody.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMImageMessageBody.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>817FAF6D97C2442DD26350A853D39815</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>27E4BA03BA7145B95986F505B140CACF</string>
+				<string>5676ACECFC3057323D65F6CA290888A0</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>822FE340C18237D6F1AB6C5C70525441</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>DBAFCD0833088E62C901708D67221535</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>83CFE8D3E31041D5DE5A807E8EAC9BE3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IChatManagerChat.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerChat.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83E0975103DCF7E58CDCD752513F145E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+GIF.h</string>
+			<key>path</key>
+			<string>SDWebImage/UIImage+GIF.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84489898D44A236CD05019571A6E5697</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMChatManagerMediaDelegate.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerMediaDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>881A03759FEB7809F22E5448DE2891F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMVoiceMessageBody.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMVoiceMessageBody.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8833AAA7118463B1F0E08F602EA6092A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMChatManagerChatDelegate.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerChatDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>893098A41F16D9A2DA025F09AE4E4649</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMDeviceManagerMediaDelegate.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerMediaDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E42B78BA4D25DB9482EA02CC220CB57</key>
+		<dict>
+			<key>fileRef</key>
+			<string>272643F56613CA0D336AE3DBF19DC404</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8F15262C5ACFD22C325DA3CBF7C4BAC9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4630A6644E76AADF263AE66897C3F8DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>90A0A54EF46C9656C5B02D5DDDCD4979</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMErrorDefs.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/ErrorManager/EMErrorDefs.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>92CDA49D88923E833150164B6A3697B8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SDWebImageDownloader.h</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageDownloader.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>935C3AAAD2E20B7D96F5FDBFD61481F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMDeviceManagerDefs.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/EMDeviceManagerDefs.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>938E352DAAD0563DC2BA08B46F0535D8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IDeviceManagerDelegate.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/IDeviceManagerDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>940C04D926F0A1501455BCE941280902</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMError.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/ErrorManager/EMError.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>944208CDFCFEA91B5EA8AA0BC8AFB876</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D835D7D306388F3459ABE81637ACE83C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>98C98CDFB3F20F2925F6CD1F141BB14F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>992C9EEE50085E82EF0B026C81C38906</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1309,7 +1832,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>AE46E43468128374E31003080F7333AE</key>
+		<key>9A42E7DD3E6E1868D3FD8827AB9AF4A5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1318,9 +1841,257 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IChatManagerLogin.h</string>
+			<string>EMChatFile.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerLogin.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatFile.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9BCE13322A7D5139FD539A447B2C135F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IDeviceManagerCamera.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerCamera.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9C49176B7C258A9227430C7AF6CC5974</key>
+		<dict>
+			<key>fileRef</key>
+			<string>73FFD437517BED9979E41205DB9795D8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A22A6C9609C128D2920F1C8E3B0AB40F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SDWebImage</string>
+			<key>target</key>
+			<string>CAEA868BA328BE96EDD68B17F7660DB0</string>
+			<key>targetProxy</key>
+			<string>AAB91E0C76DC5AAF9FF15E7C3E191E47</string>
+		</dict>
+		<key>A2ECD05B73E486350A5FBCA9384C23A0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3A4F7C53E52FB3A4A14A58803501AB46</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A32E1F4225215F6E00B6E4031777E83F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A7790B562FB97AF54E073F573AF6DEC5</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A49D4A4C20B798835BA6F750BEE3B51C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImageDownloaderOperation.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageDownloaderOperation.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A5BF28175AE642A0467ABF932CAD5FDF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BDD3DCAF85D6BD97CEB7DEB0D00FF7C5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A7790B562FB97AF54E073F573AF6DEC5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libEaseMobClientSDKLite.a</string>
+			<key>path</key>
+			<string>EaseMobSDK/lib/libEaseMobClientSDKLite.a</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8EE405B4779A38DBD5FC8937E7B76CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMDeviceManagerDelegateBase.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerDelegateBase.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AAB91E0C76DC5AAF9FF15E7C3E191E47</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>CAEA868BA328BE96EDD68B17F7660DB0</string>
+			<key>remoteInfo</key>
+			<string>SDWebImage</string>
+		</dict>
+		<key>AB1CA297A7BE49E73F94DA6639EEEFF7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IDeviceManagerProximitySensor.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerProximitySensor.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ACD02AB8C8076A57D1F3C5278B486836</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+MultiFormat.h</string>
+			<key>path</key>
+			<string>SDWebImage/UIImage+MultiFormat.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ACE5317BBF6CAA9370B76EC9C85570B8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A49D4A4C20B798835BA6F750BEE3B51C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>AFDA07CD648B4AE5D93079E25E0D1017</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IEMChatFile.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatFile.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B1231C0F68C64954E8C75C43EAF82E8D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8E42B78BA4D25DB9482EA02CC220CB57</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B1FC9018DD0B07FC388788E72DF5B2E2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMNetworkMonitorDefs.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMNetworkMonitorDefs.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2C01742B98F336A78AE04FDD3F8351A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA867B6B3363E45542B0C231429272E0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B32654B0074E393D7828E467678E430F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+WebCacheOperation.h</string>
+			<key>path</key>
+			<string>SDWebImage/UIView+WebCacheOperation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B3928B370E8C76BB3E84241177CF0247</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMLocationMessageBody.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMLocationMessageBody.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1345,12 +2116,42 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B991A49F4C12A4F8462C02B69D83DB11</key>
+		<key>B47F67751C5E2E4493E30D77823E60B0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
+			<string>26942AD262629324CCBC35A28801A9CF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>B7D91BD9132B62A9D83DF49480A32CA6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libSDWebImage.a</string>
+			<key>path</key>
+			<string>libSDWebImage.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>B965F4070FE75916728023F2994F94C0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMFileMessageBody.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMFileMessageBody.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -1369,20 +2170,179 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<key>BC2A5B8B1BDC4490B95C3974FE9A0052</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>EMChatImage.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatImage.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BCB71FAAC44FD6ADA6C0EEFC65E50B22</key>
+		<key>BDD3DCAF85D6BD97CEB7DEB0D00FF7C5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImageDownloader.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageDownloader.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BED4291B83D30AFCA501160FE9B1D56F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SDWebImage-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C76994E818DD59311AD7C3A681448B3B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMChatManagerDelegateBase.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerDelegateBase.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C8399A26A08FC14F1361BBD9C87B7F20</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMChatText.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatText.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C945E12EC6E7A3AD58EC889B2EA79717</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SDWebImageCompat.h</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageCompat.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA441B8CFE5D8322942D508A7E804D3A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>92CDA49D88923E833150164B6A3697B8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CA867B6B3363E45542B0C231429272E0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImageManager.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageManager.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CAEA868BA328BE96EDD68B17F7660DB0</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>7D6E16489532AC1A63448093E2756B75</string>
+			<key>buildPhases</key>
+			<array>
+				<string>EA1CABB5256C4E95936B515764C1638C</string>
+				<string>220E312F3D960F50848DF45A39AA0A59</string>
+				<string>F88584522932B18F97E42F813E019CC2</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SDWebImage</string>
+			<key>productName</key>
+			<string>SDWebImage</string>
+			<key>productReference</key>
+			<string>B7D91BD9132B62A9D83DF49480A32CA6</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>CDCE5ECDBCC6D53E52455C05929E7CC4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EaseMob.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/EaseMobClientSDKLite/EaseMob.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CDE3B9DFC42D48FA5972419C4F6D65B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IDeviceManagerBase.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerBase.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CFCC9201F8592231A777AC08AF6534CC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1397,106 +2357,35 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BD12F6F3C3943F36B805865C572209F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IChatManagerConversation.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerConversation.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
+		<key>D172A5F676D6EB47DD8CED6FC5050314</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
+				<string>F3AF5A509E5BC534BD7EAE78DA44E75D</string>
+				<string>BED4291B83D30AFCA501160FE9B1D56F</string>
+				<string>F7A84B526FB034CB79F455E8DCD8308D</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>iOS</string>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SDWebImage</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BFDCEDF11CC5329E8A2F6885DA7FBE21</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C54C097CACAC063AF776780981CB8EA2</key>
+		<key>D174B943128EE0FD567D3BA2DAD96347</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>EMMessage.h</string>
+			<string>SDWebImagePrefetcher.m</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMMessage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7BFBCD76AF77CE8C26936F475A03927</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatServiceDefs.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatServiceDefs.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE0CA41DD01940B6E10A80C9DA472EF7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IEMChatFile.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMChatFile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D38094E21ECB4BF7F8FACD0A311CB4F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IChatManagerDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/IChatManagerDelegate.h</string>
+			<string>SDWebImage/SDWebImagePrefetcher.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1526,7 +2415,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>1F0B9F713A13B4F29BE0C0E7483B187B</string>
+			<string>7C7549824CD6FD11C75525349DD72E96</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1535,85 +2424,11 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>1469924FC52F60B0068FA24EEFCB3EFC</string>
+				<string>122BC0DDFA2D0FAD098E79F9FF495B56</string>
+				<string>CAEA868BA328BE96EDD68B17F7660DB0</string>
 			</array>
 		</dict>
-		<key>D67EE2D35F6CF7AAA5D32A752F9CD1FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>IDeviceManagerCamera.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerCamera.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DCDB9F757A5EDAC9819640BE288D3020</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EaseMob.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/EaseMobClientSDKLite/EaseMob.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DDCB506B5D443D183467C8A517A8B8FC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatImage.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatImage.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFB1345C0EFB54EA8D07FC3EA6A817AB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMDeviceManagerLocationDelegate.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerLocationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E110E5CBCCEC9E1DFEC730A46D9AF200</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EMChatFile.h</string>
-			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMChatFile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2E4F26BAD1475D20713ABA075B82A89</key>
+		<key>D4215C6E1812591125FBE3FFD36D2988</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1628,7 +2443,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E8D5478993FDFADE5E892D29FF807353</key>
+		<key>D835D7D306388F3459ABE81637ACE83C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1637,13 +2452,87 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMGroup.h</string>
+			<string>UIButton+WebCache.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMGroup.h</string>
+			<string>SDWebImage/UIButton+WebCache.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EA1BD2D94CBF128ADB089512433916CD</key>
+		<key>D9E798EACF77BAE828D298547EE8949D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IChatManagerLogin.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerLogin.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DBAFCD0833088E62C901708D67221535</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4630A6644E76AADF263AE66897C3F8DF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DCABE2E6B17F9DBEB8AE1953437F34F3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMDeviceManagerDelegate.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DD2FE8987CDDB5F19F074B54E8F7D180</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IEMFileMessageBody.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/IEMFileMessageBody.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DFA2A0D7CB9DCD31764CC8A3D6ADDCE5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSData+ImageContentType.m</string>
+			<key>path</key>
+			<string>SDWebImage/NSData+ImageContentType.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E07F12DFD86DA7CDCD7F50304C1D7EFD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D174B943128EE0FD567D3BA2DAD96347</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E495FB28F6C72DA07436AE42A7195CFE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1658,7 +2547,166 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EBF447052777205A19455915BBCA0D95</key>
+		<key>E49FD1499F951BD70E1713CA19C8E534</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMChatManagerUtilDelegate.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerUtilDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E4CCDCB5BDE9A57584801A25DE0A54D2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IChatManagerGroup.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerGroup.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6CA6CF28F4D8858FD69306E47ED07C2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F8743344F2A43D3B11610C839E4783BA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E8DC8017B84918D81A216A84C585CB49</key>
+		<dict>
+			<key>fileRef</key>
+			<string>068E0D3A618981A8DBEDC001CE222A3C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E967DCEAB64FF2ACE12D52D97FAB8B61</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+MultiFormat.m</string>
+			<key>path</key>
+			<string>SDWebImage/UIImage+MultiFormat.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EA1CABB5256C4E95936B515764C1638C</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>3E2801995206C8F7DECFF1E37AB8D7BD</string>
+				<string>4C4C22E91416ED7EE66FE723961B3D99</string>
+				<string>3822ABDDE683E76274C9B758A9E2EC23</string>
+				<string>454F404131B48E1E4C9DD0DEC9C9D303</string>
+				<string>0F3478FC945E7C75ED1DBF47D3B6E1E5</string>
+				<string>A5BF28175AE642A0467ABF932CAD5FDF</string>
+				<string>ACE5317BBF6CAA9370B76EC9C85570B8</string>
+				<string>B2C01742B98F336A78AE04FDD3F8351A</string>
+				<string>E07F12DFD86DA7CDCD7F50304C1D7EFD</string>
+				<string>B47F67751C5E2E4493E30D77823E60B0</string>
+				<string>9C49176B7C258A9227430C7AF6CC5974</string>
+				<string>27124F76E996930FD405B74265B06624</string>
+				<string>FEC16BFC5899D0CAA18C3CB9983A0C64</string>
+				<string>4C01600A01D62B5443175927DBC17C51</string>
+				<string>A2ECD05B73E486350A5FBCA9384C23A0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>EA9F08A9E9BB36F5CDEB5E69BB662132</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2930A6DD340D52376EB17BA723C80BF1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EA9FEA61607B8DCC3F7DF445CB4A15B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IChatManagerMedia.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerMedia.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EC7EB752ABD4921774BC4141FDDCC7B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>EMConversation.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMConversation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EDB8600542A900E92E61C1E36D0FE100</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IChatManagerConversation.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/internal/IChatManagerConversation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE4C3BE6BEB34DF619D49323D163D161</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1673,7 +2721,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F5DDB0FF36BB8B126459BAC67D815107</key>
+		<key>EF2EAA91DB4D44ECE59217A40DBDCECE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1682,13 +2730,27 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMDeviceManagerDelegateBase.h</string>
+			<string>EMBuddyGroup.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/delegates/internal/EMDeviceManagerDelegateBase.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMBuddyGroup.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F8D1D90D2BA5E077EEA6B78CBFBCC2E7</key>
+		<key>F176CD22E853B947E6AC9566A6A314FF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>64A01D9254D172CD0178E3C7E18F4660</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F34F2DE19B242EFA9A1DA9094B0F2E3F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1697,101 +2759,86 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>IDeviceManagerMedia.h</string>
+			<string>EMGroup.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/Utility/EMDeviceManager/internal/IDeviceManagerMedia.h</string>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/types/EMGroup.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FA473233551C42B454EE1C10CF7A0E1F</key>
+		<key>F3AF5A509E5BC534BD7EAE78DA44E75D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SDWebImage.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F3F30CA7C58176CADD014DAFCCF7EE35</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>6B68ADC6C2B5980946A789A416D82313</string>
-				<string>DCDB9F757A5EDAC9819640BE288D3020</string>
-				<string>069AA2165E8610E3191D90C2ADFB8419</string>
-				<string>EA1BD2D94CBF128ADB089512433916CD</string>
-				<string>0F24C592B7D81C4718D8405FDF692ACF</string>
-				<string>E110E5CBCCEC9E1DFEC730A46D9AF200</string>
-				<string>DDCB506B5D443D183467C8A517A8B8FC</string>
-				<string>1A15AB0D3DBF7E0C91C79B01078DD2E6</string>
-				<string>344FB972E9938CA3F1DC4502A903B62F</string>
-				<string>3A635C82E977738AA66E719D697AD3D0</string>
-				<string>32C87D73FA0DC473E3C8A1A5846145DB</string>
-				<string>428F582051BDBB9D24DDCF012CFA8C73</string>
-				<string>6A9927F06A04BF5EA11BF0BB0D1C3E44</string>
-				<string>4A8DA9EF279276A6B0CAA80AACE38630</string>
-				<string>062DCF279E379D020AC678780CEED916</string>
-				<string>2490ED7F9F78F4EDC093640573D2A8C1</string>
-				<string>FE7AFDEB4A3FEBCF325F86B197D7A6AC</string>
-				<string>1CC4768FFC74D851DAB84A371B0E6B4D</string>
-				<string>C7BFBCD76AF77CE8C26936F475A03927</string>
-				<string>6674F7ED0CEB6C85EA3C75DA11FC134C</string>
-				<string>5F2CBF7A96E33D58A49E4C5497BD0161</string>
-				<string>9B2251BF240B48C50DE7B62E6F2D85DE</string>
-				<string>8BAABE871B24505FDB33ED67AF3DC3FC</string>
-				<string>5AF59BA5E0165ED8C4F11025746CA0E3</string>
-				<string>66472298A21422FC43DE278C93A777D6</string>
-				<string>F5DDB0FF36BB8B126459BAC67D815107</string>
-				<string>DFB1345C0EFB54EA8D07FC3EA6A817AB</string>
-				<string>24318E12049C828C0D7408E45B45B63C</string>
-				<string>BCB71FAAC44FD6ADA6C0EEFC65E50B22</string>
-				<string>9069A0752440815A0CC51C71573606BB</string>
-				<string>077C6BBFCE415D7AAEFC4124DD0C14AE</string>
-				<string>47B7820C03935A85049A192D6E5DEA45</string>
-				<string>AB98C787E93305FB2EA035AA246FBE34</string>
-				<string>E8D5478993FDFADE5E892D29FF807353</string>
-				<string>65FAB1CA028B47AE00176A24BC71AE19</string>
-				<string>3DDC7EB6C68DF8D32D3E2274F4B5E8F1</string>
-				<string>18644DB62C63A32905A4CD28CCE6AD48</string>
-				<string>C54C097CACAC063AF776780981CB8EA2</string>
-				<string>89216A2BCDCEFAED23A3C27DC88D34F3</string>
-				<string>4D09E3D5D02A7C1E213504018DBB737A</string>
-				<string>621C5A16765FC2FC8474E0012E6811AF</string>
-				<string>A4A005231B0E97F89351F90A3FDAD00D</string>
-				<string>8F4FE3B722A92720D11C18AFF91B690C</string>
-				<string>3F4282768AD02694C2D41E06B61B083D</string>
-				<string>E2E4F26BAD1475D20713ABA075B82A89</string>
-				<string>049548A24B9365803F886A05E3C926DC</string>
-				<string>54C04213B742AA7C3557FA4033939762</string>
-				<string>60CA2AEB4A2766FF3EF1FA44E46F547C</string>
-				<string>A82121F71B4DD228D113791CC3DB7021</string>
-				<string>724C45D04F38E0645675BF81BB8A20F1</string>
-				<string>BD12F6F3C3943F36B805865C572209F7</string>
-				<string>D38094E21ECB4BF7F8FACD0A311CB4F9</string>
-				<string>32242A756D56A61B6FD3FAED0AB871FA</string>
-				<string>6F7AF48D6B3280A2601C74EC032D960F</string>
-				<string>AE46E43468128374E31003080F7333AE</string>
-				<string>4E98982457EC78475BB7E44A9E36B7EE</string>
-				<string>EBF447052777205A19455915BBCA0D95</string>
-				<string>8C6D563943A960180318746ACB43CEBE</string>
-				<string>292C415D3175740B4B13F5F3BD13CB16</string>
-				<string>90AE00887F37ABA17C3E80B5673D166C</string>
-				<string>D67EE2D35F6CF7AAA5D32A752F9CD1FB</string>
-				<string>446404814323E42E46122C77CD5340CF</string>
-				<string>6C60EDC2515B8A64BEBE9987C3434C81</string>
-				<string>AC26B91E078846FE75224AB5910E02D4</string>
-				<string>F8D1D90D2BA5E077EEA6B78CBFBCC2E7</string>
-				<string>4955EFDF015D415CB5AF6A6F535BBCBD</string>
-				<string>838E49D0ED56868774A31473790AB0D6</string>
-				<string>CE0CA41DD01940B6E10A80C9DA472EF7</string>
-				<string>1ABD11F9A25546EFA6DF91AA15064429</string>
-				<string>08CED211350B1EC7102ABC182FAFDBDB</string>
-				<string>941FAA6FC518D80923AB25AB96B7E3CA</string>
-				<string>8712802A2091F228907BF7D0BD5BB281</string>
-				<string>A48039BD4C3DDAD9577F3CE87E718378</string>
-				<string>6B5ADEA03FDD432D06956C7D4C808DA7</string>
+				<string>992C9EEE50085E82EF0B026C81C38906</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Easemob</string>
-			<key>path</key>
-			<string>Easemob</string>
+			<string>Resources</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FE7AFDEB4A3FEBCF325F86B197D7A6AC</key>
+		<key>F7A84B526FB034CB79F455E8DCD8308D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SDWebImage-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F814EFF01E53DACE3822C2E8E6F21BE9</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>F3AF5A509E5BC534BD7EAE78DA44E75D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SDWebImage/SDWebImage-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>F8743344F2A43D3B11610C839E4783BA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1800,9 +2847,72 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>EMChatManagerPushNotificationDelegate.h</string>
+			<string>NSData+ImageContentType.h</string>
 			<key>path</key>
-			<string>EaseMobSDK/include/ChatService/EMChatManager/delegates/internal/EMChatManagerPushNotificationDelegate.h</string>
+			<string>SDWebImage/NSData+ImageContentType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F88584522932B18F97E42F813E019CC2</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E6CA6CF28F4D8858FD69306E47ED07C2</string>
+				<string>0AAF6F58C14EC227A3569C4AC021374A</string>
+				<string>017315E1A2836741C411EF9921229C20</string>
+				<string>EA9F08A9E9BB36F5CDEB5E69BB662132</string>
+				<string>CA441B8CFE5D8322942D508A7E804D3A</string>
+				<string>1CDC8D9B425819C6938D5F6D9ACF6DFF</string>
+				<string>E8DC8017B84918D81A216A84C585CB49</string>
+				<string>F176CD22E853B947E6AC9566A6A314FF</string>
+				<string>5AA920113D723C814D2E5286F1ABD62D</string>
+				<string>944208CDFCFEA91B5EA8AA0BC8AFB876</string>
+				<string>29074F97CD370A8E12B9C904D50FD7C8</string>
+				<string>783574B9297922581321B87DCD09AC61</string>
+				<string>16A31E4306039EA00FD2F50CCAAE971E</string>
+				<string>1FEBC037738DDF0A71AE02AB98D3D1F2</string>
+				<string>2972DF9EBF8582B753FDD450E1BBF9BC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F92CD84A70113F7F4EA2F4F553849CE0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>IChatManager.h</string>
+			<key>path</key>
+			<string>EaseMobSDK/include/ChatService/EMChatManager/IChatManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FEC16BFC5899D0CAA18C3CB9983A0C64</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0A49FFDE1A3F185088668104DBC22EF7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FF880E94BC5F1B73ECBD6429796DC5C3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4630A6644E76AADF263AE66897C3F8DF</string>
+				<string>609DD8EF242B56172BA66E6B780EFC65</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

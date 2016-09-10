@@ -1,10 +1,15 @@
 PODS:
   - Easemob (2.1.4)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
 
 DEPENDENCIES:
   - Easemob
+  - SDWebImage
 
 SPEC CHECKSUMS:
   Easemob: 0da2d47def09bb7e8b8a4e6b8f7745d2a684fd5b
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
 COCOAPODS: 0.39.0
