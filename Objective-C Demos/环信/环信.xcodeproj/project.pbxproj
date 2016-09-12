@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0DE3F31D86C4450068A5CE /* JKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0DE3F21D86C4450068A5CE /* JKTabBarController.m */; };
 		0AAD0A9C1D82C8DE00AFAC7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD0A9B1D82C8DE00AFAC7E /* main.m */; };
 		0AAD0A9F1D82C8DE00AFAC7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AAD0A9E1D82C8DE00AFAC7E /* AppDelegate.m */; };
 		0AAD0AA71D82C8DE00AFAC7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AAD0AA61D82C8DE00AFAC7E /* Assets.xcassets */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A0DE3F11D86C4450068A5CE /* JKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKTabBarController.h; sourceTree = "<group>"; };
+		0A0DE3F21D86C4450068A5CE /* JKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKTabBarController.m; sourceTree = "<group>"; };
 		0AAD0A971D82C8DE00AFAC7E /* 环信.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "环信.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AAD0A9B1D82C8DE00AFAC7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0AAD0A9D1D82C8DE00AFAC7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 			children = (
 				0AAD0A9D1D82C8DE00AFAC7E /* AppDelegate.h */,
 				0AAD0A9E1D82C8DE00AFAC7E /* AppDelegate.m */,
+				0A0DE3F11D86C4450068A5CE /* JKTabBarController.h */,
+				0A0DE3F21D86C4450068A5CE /* JKTabBarController.m */,
 				0AAD0AA61D82C8DE00AFAC7E /* Assets.xcassets */,
 				0AAD0AA81D82C8DE00AFAC7E /* LaunchScreen.storyboard */,
 				0AAD0AAB1D82C8DE00AFAC7E /* Info.plist */,
@@ -338,6 +343,7 @@
 			files = (
 				0AAD0A9F1D82C8DE00AFAC7E /* AppDelegate.m in Sources */,
 				0AAD0A9C1D82C8DE00AFAC7E /* main.m in Sources */,
+				0A0DE3F31D86C4450068A5CE /* JKTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
