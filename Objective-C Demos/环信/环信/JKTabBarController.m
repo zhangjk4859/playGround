@@ -19,12 +19,11 @@
 
   //此法作用从UIStoryboard群抓取对应的控制器
   UIViewController *vc = [[UIStoryboard storyboardWithName:@"main" bundle:nil] instantiateViewControllerWithIdentifier:@"identifier"];
+    
+    NSLog(@"%@",vc);
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 
 

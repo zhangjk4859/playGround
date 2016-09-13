@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "JKTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     //添加tabbar控制器
-    UITabBarController *tabBarVC = [[UITabBarController alloc] init];
+    JKTabBarController *tabBarVC = [[JKTabBarController alloc] init];
     self.window.rootViewController = tabBarVC;
     
     
