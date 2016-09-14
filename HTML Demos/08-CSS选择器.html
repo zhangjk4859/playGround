@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        /*<!-- 标签选择器 -->*/
+        /*div{*/
+            /*color: red;*/
+        /*}*/
+
+        /*p{*/
+            /*color: blue;*/
+        /*}*/
+        /*/!*类选择器*!/*/
+        /*.one{*/
+            /*color: yellowgreen;*/
+        /*}*/
+
+        /*/!*ID选择器*!/*/
+        /*#nameID {*/
+            /*font-size: 90px;*/
+        /*}*/
+
+        /*/!*并列选择器,满足其中一个即可*!/*/
+        /*div,.one{*/
+            /*/!*do something*!/*/
+            /*color: darkblue;*/
+        /*}*/
+
+        /*/!*复合选择器，要同时满足*!/*/
+         /*div.one{*/
+             /*color: aquamarine;*/
+         /*}*/
+
+        /*/!*后代选择器 *!/*/
+        /*div div{*/
+            /*color: red;*/
+        /*}*/
+
+        /*/!*直接后代选择器*!/*/
+        /*div > p{*/
+            /*color:yellow;*/
+        /*}*/
+        /*/!*相邻兄弟标签 div跟前的p拉出来*!/*/
+        /*div + p{*/
+            /*color: aqua;*/
+        /*}*/
+
+        /*/!*属性选择器*!/*/
+        /*div[name][age]{*/
+            /*color: azure;*/
+        /*}*/
+
+        /*div[name="jack"]{*/
+            /*color: azure;*/
+        /*}*/
+
+        /*伪类选择器*/
+        div{
+            background-color: red;
+            width: 200px;
+            height: 300px;
+        }
+
+        div:hover {
+            background-color: aqua;
+            width: 100px;
+            height: 200px;
+        }
+
+        input:focus{
+            outline: none;
+            width: 100px;
+            height: 200px;
+            border: 10px double red;
+        }
+
+    </style>
+</head>
+<body>
+
+<!--ID是唯一的，class可以重复-->
+
+<!--<div id="nameID">11111111111</div>-->
+<!--<div>11111111111</div>-->
+<!--<div>11111111111</div>-->
+<!--<div>11111111111</div>-->
+
+
+<!--<p>222222222222222</p>-->
+
+
+<!--<div class="one">33333333333</div>-->
+<!--<p class="one">44444444444</p>-->
+
+  <!--<div>-->
+      <!--<p>-->
+          <!--<div> 1112131232132132132131</div>-->
+      <!--</p>-->
+  <!--</div>-->
+
+<!--<div name="jack" >111111111</div>-->
+<!--<div name="rose" age="90">22222222</div>-->
+<div age="90" >9999999</div>
+
+<p></p>
+<input>
+
+
+
+
+</body>
+</html>
