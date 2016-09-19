@@ -1,0 +1,97 @@
+
+body{
+    background-color: #F2F2F2;
+}
+
+
+#content{
+    /*background-color: red;*/
+    text-align: center;
+}
+
+#content .panel{
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#content .panel .group{
+    /*background-color: lightblue;*/
+}
+
+/*输入框*/
+#content .panel .group input{
+    display: block;
+    width: 250px;
+    height: 33px;
+    padding-left: 7px;
+    font-size: 17px;
+    border: 1px solid #ddd;
+
+}
+
+/*输入框伪类*/
+#content .panel .group input:focus{
+    outline: none;
+    border-color: #CC865E;
+}
+
+#content .panel .group label{
+    display: block;
+    /*background-color: yellow;*/
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#content .login{
+    margin-top: 20px;
+}
+
+#content .login button{
+    /*padding: 0px;*/
+    /*margin: 0px;*/
+    /*border: 0px;*/
+    width: 250px;
+    background-color: #CC865E;
+
+}
+
+#content .login button:hover{
+    background-color: white;
+    color: #CC865E;
+    border: 1px solid #CC865E;
+    cursor: pointer;
+}
+
+#content button{
+
+    height: 33px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+
+}
+
+/*注册按钮*/
+#content .reg button{
+    width: 250px;
+    background-color: #466BAF;
+}
+
+#content .reg button:hover{
+    background-color: white;
+    color: #466BAF;
+    border: 1px solid #466BAF;
+    cursor: pointer;
+}
+
+
+#content .reg{
+    margin-top: 20px;
+}
