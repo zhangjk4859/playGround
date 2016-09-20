@@ -1,0 +1,104 @@
+/*引入自定义文字*/
+@font-face {
+    font-family: BebasNeue-webfont;
+    src: url("../fonts/BebasNeue-webfont.ttf");
+}
+
+/*清除掉默认边距*/
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: url("../images/pattern.gif");
+    font-family: "BebasNeue-webfont";
+}
+/*类名*/
+#header{
+background-color: red;
+    height: 3px;
+}
+
+#nav{
+    text-align: center;
+    margin: 0px auto;
+}
+
+#nav ul{
+    background-color:red;
+    /*display: inline-block;*/
+
+}
+
+#nav ul li a{
+    float: left;
+    color: white;
+    margin-right: 20px;
+    width: 200px;
+    font-size: 40px;
+    /*background-color:green ;*/
+    text-align: center;
+
+}
+
+#nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+#nav ul li a.select{
+    background-color: white;
+    color: black;
+}
+
+#list{
+    /*background: blue;*/
+    text-align: center;
+}
+
+#list .dom{
+
+    width: 382px;
+    display: inline-block;
+
+}
+
+
+#list .dom p{
+    color: #999;
+    font-family: sans-serif;
+    margin-bottom:5px;
+
+
+}
+
+#list .dom a{
+
+    background: #C0392B;
+    color: white;
+    display: inline-block;
+    width: 170px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+
+}
+
+#list .dom a:hover{
+    background-color: rgb(11,17,15);
+
+}
