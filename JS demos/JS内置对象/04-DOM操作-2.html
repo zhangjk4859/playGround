@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<img src="image/icon_09.png">
+
+<input value="hello world">
+
+<script>
+    var img = document.getElementsByTagName('img')[0];
+    img.onmousemove = function(){
+        console.log('==========');
+    }
+
+    img.onmouseover = function(){
+        console.log('+++++++++++');
+    }
+
+    img.onmouseout = function(){
+        console.log('XXXXXXXXXXXX');
+    }
+
+    var input = document.getElementsByTagName('input')[0];
+    input.onfocus = function(){
+        input.style.outline = 'none';
+        input.style.width = '300px';
+        input.style.height = '400px';
+        input.style.fontSize = '30px';
+    }
+    input.onselect = function(){
+        alert(input.value);
+    }
+
+</script>
+
+</body>
+</html>

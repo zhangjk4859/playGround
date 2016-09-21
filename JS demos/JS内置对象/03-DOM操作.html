@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+
+
+</head>
+<body>
+
+    <img src="image/icon_09.png">
+    <p></p>
+    <button name="btns">改变图片</button>
+
+
+    <script>
+        var img = document.getElementsByTagName('img')[0];
+        var btn = document.getElementsByName('btns')[0];
+        btn.onclick = function(){
+            if(img.src.lastIndexOf('icon_09.png') != -1){
+                img.src = 'image/img_03.jpg';
+            }else{
+                img.src = 'image/icon_09.png';
+            }
+        }
+
+
+    </script>
+
+</body>
+</html>

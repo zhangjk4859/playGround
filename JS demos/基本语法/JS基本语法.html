@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<!--JS代码写到后面-->
+<script>
+
+//    var number = 10;
+//    var money = 100.99;
+//    var name = 'jack';
+//    name2 = 'rose';
+////    var result = true;
+//    var num = null;
+//    console.log(number,money,name,result);
+//    console.log(typeof number,typeof money,typeof name,typeof result,typeof num);
+//
+//    var newName =  name + name2;
+//    console.log(newName);
+//
+////    遇到string类型就转变成string，然后拼接
+//    var str1 = 10 + 10 +'10' + '10';
+//    console.log(str1);
+
+//    var nmbers = [number,10,'jjjj',result,['wwww',10]];
+//
+//    console.log( typeof nmbers);
+//
+//    for(var i = 0;i<nmbers.length;i++){
+//        console.log(nmbers[i]);
+//    }
+
+    //函数
+//    function sum(num1,num2){
+//
+////        return num1 + num2;
+//        console.log(num1 + num2);
+//    }
+
+//    var result = sum(10,20);
+//    console.log(result);
+   // sum(10,40);
+
+//    万能的加法函数
+//    function sum(numbers){
+    //        var count = 0;
+    //        for(var i = 0; i<numbers.length;i++){
+    //            count = count + numbers[i];
+    //        }
+    //        return count;
+    //    }
+    //
+    //
+    //    var  array = [10,20,30,'111'];
+    //    var result  = sum(array);
+    //    console.log(result);
+
+    //加强版 argument
+    function sum(){
+            var count = 0;
+            for(var i = 0; i<arguments.length;i++){
+                count = count + arguments[i];
+            }
+            return count;
+        }
+
+    var result = sum(10,20,30,40);
+    console.log(result);
+
+//    匿名函数
+    var result = function(){
+        console.log('111111111111111111');
+    };
+
+    result();
+
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+       <!-- 对象-->
+        <script>
+            var dog = {
+                name :'wangcai',
+                height : 1.55,
+                age:15,
+                friends : ['lulu','xixi'],
+                run : function(){
+                    console.log(this.name+'在操场上跑步');
+                },
+
+                eat : function(meat){
+                    console.log(this.name+'狗在吃东西'+ meat);
+                }
+            }
+
+//            for(var pname in dog){
+            //                console.log(pname,dog[pname]);
+            //            }
+            //
+            //            console.log(dog.friends[0]);
+
+            dog.run();
+            dog.eat('红烧肉');
+
+            //this 代表当前的对象
+
+        </script>
+
+
+</body>
+</html>

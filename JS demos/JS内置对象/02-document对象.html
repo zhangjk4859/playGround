@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+
+        //可以动态获得网页中所有的节点
+        //可以动态的对节点进行CRUD create Retrieve update delete
+
+//        document.write('hello world');
+//        document.write('<button>百度一下</button>');
+//        document.write('<img src="https://www.baidu.com/img/bd_logo1.png" width="200">');
+//
+
+//        function change(){
+//            var ima = document.getElementById('icon');
+//            console.log(ima);
+//            ima.src = 'image/img_03.jpg';
+//        }
+
+//        function change(){
+//            var ima = document.getElementsByClassName('test1')[0]
+//
+//            ima.src = 'image/img_03.jpg';
+//        }
+
+        function change(){
+            var img = document.getElementsByTagName('img')[0];
+
+            img.src = 'image/img_03.jpg';
+        }
+
+    </script>
+
+</head>
+<body>
+
+<img name="test2" id="icon" class="test1" src="image/icon_09.png">
+<p></p>
+<button  onclick="change()">改变图片</button>
+<div class="test1"></div>
+</body>
+</html>
