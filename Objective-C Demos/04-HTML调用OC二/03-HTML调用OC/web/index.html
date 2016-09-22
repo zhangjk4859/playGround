@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <style>
+            body{
+                margin: 20px;
+            }
+        </style>
+    </head>
+    
+    
+    <body>
+
+       <span >用户名</span>
+       <input id="username">
+       <p></p>
+       <span >密码</span>
+       <input type="password" id="pwd">
+       <p></p>
+
+        <button id="btn"`>登录</button>
+        
+    </body>
+
+
+<script>
+
+    var username = document.getElementById('username');
+    var pwd = document.getElementById('pwd');
+    var btn = document.getElementById('btn');
+
+    btn.onclick = function(){
+        var name = username.value;//拿用户名
+        var password = pwd.value;
+
+        window.location.href = 'zjk://' + name + '?' + password;
+    }
+
+</script>
+    
+</html>
