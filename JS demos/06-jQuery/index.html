@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--
+    1.JS存在兼容性的问题 考虑兼容性
+    2.Dom操作相当繁琐
+
+    jQuery （JS封装)
+    1.可以轻松操作DOM
+    2.很少的代码写更多的功能
+    3.能实现简单的动画
+
+    -->
+</head>
+<body>
+
+
+<div>
+    <p>
+        11111111111
+    </p>
+    <div>
+        <img src="image/img_01.jpg" class="test1"><br>
+        <img src="image/img_01.jpg"><br>
+        <img src="image/img_01.jpg"><br>
+        <img src="image/img_01.jpg"><br>
+        <img src="image/img_01.jpg"><br>
+    </div>
+
+    <button>点击隐藏</button>
+
+
+    <button class="btn1">显示动画</button>
+
+
+</div>
+
+
+
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+
+    //获取标签
+//   alert($('img').attr('src'));
+
+    //改变标签中的内容
+    $('img').attr('src','image/img_04.jpg')
+
+    //改变宽度
+    $('img').attr('width','60px');
+
+//    //隐藏标签
+//    $('button').click(function(){
+////        $('img').hide();
+//        $('img').toggle();
+//    })
+
+    //鼠标移动
+    $('img').mouseenter( function(){
+       // alert(11111);
+//        $('img').remove();
+    })
+
+    $('img').mouseleave(function(){
+//        $('img').attr('width','300px');
+    })
+
+    //点击每一张图片
+    $('img').click(function(){
+//        alert('点击的图片');
+        $('img').attr('src','image/img_01.jpg')
+    })
+
+
+    //CSS中所有的选择器都可以通用
+    alert($('.test1').attr('src'));
+
+    //动画
+    $('.btn1').click(function(){
+        //线性动画
+        $('img').slideToggle(2000);
+    });
+
+
+</script>
+
+
+</body>
+</html>
