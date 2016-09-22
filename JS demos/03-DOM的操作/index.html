@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+</head>
+<body>
+
+<img class="icon"  src="image/icon_01.png">
+<p></p>
+
+<button class="pre" onclick="pre()">上一张</button>
+<button class="next" onclick="next()">下一张</button>
+
+<!--外部引入JS文件-->
+<script src="js/index.js"></script>
+
+<!--先在这里面写-->
+<script type="text/javascript">
+
+    var icon = document.getElementsByClassName('icon')[0];
+
+    var maxImgCount = 9;
+    var minImgCount = 1;
+    var currentImg = minImgCount;
+
+
+//    点击上一张
+    function pre(){
+        if( currentImg == minImgCount){
+            currentImg = maxImgCount;
+
+        }else{
+            currentImg = currentImg - 1;
+        }
+
+        icon.src =  "image/icon_0"+currentImg+".png";
+    }
+
+//    点击下一张
+    function next(){
+
+        if( currentImg == maxImgCount){
+            currentImg = minImgCount;
+
+        }else{
+            currentImg = currentImg + 1;
+        }
+
+        icon.src =  "image/icon_0"+currentImg+".png";
+
+    }
+
+</script>
+
+</body>
+</html>
