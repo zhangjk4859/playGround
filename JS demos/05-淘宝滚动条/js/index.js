@@ -31,3 +31,11 @@ window.onload = function(){
         }
     }
 }
+
+
+var h1 = document.getElementsByTagName('h1')[0];
+h1.innerHTML = '日本樱花网';
+
+document.getElementById('footer').remove();
+
+document.body.outerHTML
