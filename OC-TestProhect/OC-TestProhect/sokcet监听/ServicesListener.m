@@ -85,6 +85,8 @@
     
     //读完数据以后都要调用一下监听的方法
     [sock readDataWithTimeout:-1 tag:0];
+    
+    
 }
 
 @end
