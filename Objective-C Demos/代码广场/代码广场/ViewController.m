@@ -112,6 +112,27 @@ void test(NSArray * __nonnull names)
     return @"";
 }
 
+//告诉编译器不用强转，省时省力，加一个kindof
+
+-(__kindof NSString *)dequeueReuseIdentifier
+{
+    return @"123";
+}
+
+//-( NSString *)dequeueReuseIdentifier
+//{
+//    return @"123";
+//}
+-(void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    
+   NSMutableString *mstr = [self dequeueReuseIdentifier];
+    UITableView *tableView;
+    [tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+    
+}
+
 
 
 @end
